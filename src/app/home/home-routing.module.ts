@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MyteseoCardComponent } from './myteseo-card/myteseo-card.component';
+import { MyteseoContainerComponent } from './myteseo-container/myteseo-container.component';
 
 const homeRoutes: Routes = [
     {
         path: 'home',
         pathMatch: 'full',
-        component: MyteseoCardComponent
+        component: MyteseoContainerComponent
     }
 ];
 

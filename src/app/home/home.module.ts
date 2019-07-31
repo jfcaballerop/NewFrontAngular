@@ -1,18 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { HomeRoutingModule } from './home-routing.module';
-import { MyteseoCardComponent } from './myteseo-card/myteseo-card.component';
+import { MyteseoContainerComponent } from './myteseo-container/myteseo-container.component';
 
 
 
 @NgModule({
-  declarations: [MyteseoCardComponent],
+  declarations: [MyteseoContainerComponent],
   imports: [
     CommonModule,
     HomeRoutingModule
   ],
   exports: [
-    MyteseoCardComponent
+    MyteseoContainerComponent
   ]
 })
 export class HomeModule { }
