@@ -4,9 +4,9 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { HomeModule } from './home/home.module';
 import { LayoutModule } from './layout/layout.module';
 import { LoginModule } from './login/login.module';
+import { MyteseoModule } from './myteseo/myteseo.module';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -17,7 +17,7 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     LoginModule,
-    HomeModule,
+    MyteseoModule,
     LayoutModule,
     SharedModule,
     CoreModule,
