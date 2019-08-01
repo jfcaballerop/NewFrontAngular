@@ -8,23 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class MyteseoContainerComponent implements OnInit {
 
   username: string;
+  view: string;
 
   constructor() { }
 
   ngOnInit() {
-    this.username =  this.getRandomString();
+    this.view = 'none';
   }
 
-  private getRandomString(): string {
-    let outString: string = '';
-    const inOptions: string = 'abcdefghijklmnopqrstuvwxyz0123456789';
-
-    for (let i = 0; i < 32; i++) {
-
-      outString += inOptions.charAt(Math.floor(Math.random() * inOptions.length));
-
-    }
-
-    return outString;
+  receiveView($event) {
+    this.view = $event;
   }
 }

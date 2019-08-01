@@ -42,7 +42,7 @@ export class LoginCardComponent implements OnInit {
 
     this.loading = true;
 
-    this.router.navigate([`/home`]);
+    this.router.navigate([`/myteseo`]);
 
   }
 }
