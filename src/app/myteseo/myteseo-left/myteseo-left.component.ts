@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { AuthenticationService } from 'src/app/services/authentication.service';
 
 @Component({
   selector: 'app-myteseo-left',
@@ -6,13 +7,20 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./myteseo-left.component.css']
 })
 export class MyteseoLeftComponent implements OnInit {
-  username: string;
+  username: string = '';
   @Output() viewEvent = new EventEmitter<string>();
 
-  constructor() { }
+  constructor(
+    private authenticationService: AuthenticationService
+  ) {
+
+    if (this.authenticationService.currentUserValue) {
+      this.username = this.authenticationService.currentUserValue.username;
+    }
+  }
 
   ngOnInit() {
-    this.username = this.getRandomString();
+    this.username = (this.username === '' ? this.getRandomString() : this.username);
 
   }
   private getRandomString(): string {
