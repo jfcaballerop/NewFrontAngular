@@ -1,5 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { AuthenticationService } from 'src/app/services/authentication.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-myteseo-left',
@@ -11,7 +12,8 @@ export class MyteseoLeftComponent implements OnInit {
   @Output() viewEvent = new EventEmitter<string>();
 
   constructor(
-    private authenticationService: AuthenticationService
+    private authenticationService: AuthenticationService,
+    private router: Router
   ) {
 
     if (this.authenticationService.currentUserValue) {
@@ -38,5 +40,9 @@ export class MyteseoLeftComponent implements OnInit {
 
   toggleView(viewSelected: string) {
     this.viewEvent.emit(viewSelected);
+  }
+  logout() {
+    this.authenticationService.logout();
+    this.router.navigate(['/login']);
   }
 }
