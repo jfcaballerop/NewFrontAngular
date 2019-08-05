@@ -60,10 +60,10 @@
   </thead>
   <tbody>
 
-    <tr *ngFor="let perm of permisos" [ngClass]="perm.ACTIVE === 0 ? 'table-danger' : 'table-default'">
-      <th scope="row">{{perm.ID}}</th>
-      <td>{{perm.NAME}}</td>
-      <td>{{perm.ACTIVE}}</td>
+    <tr *ngFor="let perm of permisos" [ngClass]="perm.active === 0 ? 'table-danger' : 'table-default'">
+      <th scope="row">{{perm.id}}</th>
+      <td>{{perm.name}}</td>
+      <td>{{perm.active}}</td>
     </tr>
   </tbody>
 </table>

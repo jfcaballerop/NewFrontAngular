@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   apiAuthUrl: 'http://www.mocky.io/v2/5d441bfb2f0000fc0c1794a5?mocky-delay=2s',
-  apiTwpermissionUrl: 'http://www.mocky.io/v2/5d4847433300009287a3ee5e?mocky-delay=1s'
+  apiTwpermissionUrl: 'http://www.mocky.io/v2/5d4895e7330000f343a3efac?mocky-delay=1s'
 };
 
 /*
