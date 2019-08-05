@@ -1,0 +1,6028 @@
+{
+"permisos": [
+	{
+		"ID" : 260,
+		"NAME" : "MantenimientoGeneralCalendariosCentro",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 261,
+		"NAME" : "MantenimientoGeneralHorarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 262,
+		"NAME" : "MantenimientoGeneralHorariosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 263,
+		"NAME" : "MantenimientoGeneralHorariosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 264,
+		"NAME" : "MantenimientoGeneralHorariosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 265,
+		"NAME" : "MantenimientoGeneralPaises",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 266,
+		"NAME" : "MantenimientoGeneralPaisesAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 267,
+		"NAME" : "MantenimientoGeneralPaisesBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 268,
+		"NAME" : "MantenimientoGeneralPaisesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 269,
+		"NAME" : "MantenimientoGeneralParametros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 270,
+		"NAME" : "MantenimientoGeneralParametrosFacturacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 271,
+		"NAME" : "MantenimientoGeneralParametrosFacturacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 272,
+		"NAME" : "MantenimientoGeneralParametrosFlujo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 273,
+		"NAME" : "MantenimientoGeneralParametrosFlujoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 274,
+		"NAME" : "MantenimientoGeneralParametrosGeneral",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 275,
+		"NAME" : "MantenimientoGeneralParametrosGeneralEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 276,
+		"NAME" : "MantenimientoGeneralParametrosLOTT",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 277,
+		"NAME" : "MantenimientoGeneralParametrosLOTTEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 278,
+		"NAME" : "MantenimientoGeneralParametrosMapa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 279,
+		"NAME" : "MantenimientoGeneralParametrosMapaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 280,
+		"NAME" : "MantenimientoGeneralParametrosPedidos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 281,
+		"NAME" : "MantenimientoGeneralParametrosPedidosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 282,
+		"NAME" : "MantenimientoGeneralParametrosPlanificador",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 283,
+		"NAME" : "MantenimientoGeneralParametrosPlanificadorEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 284,
+		"NAME" : "MantenimientoGeneralParametrosReiniciarPlanificador",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 285,
+		"NAME" : "MantenimientoGeneralParametrosTarifas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 286,
+		"NAME" : "MantenimientoGeneralParametrosTarifasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 287,
+		"NAME" : "MantenimientoGeneralProvinciasPais",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 498,
+		"NAME" : "MantenimientoEmpresasEmpresasActivar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 499,
+		"NAME" : "MantenimientoEmpresasEmpresasDesactivar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 500,
+		"NAME" : "MantenimientoEmpresasEmpresasRegistro",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 501,
+		"NAME" : "MantenimientoEmpresasEmpresasTraspaso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 502,
+		"NAME" : "MantenimientoEmpresasEmpresasHomologarCliente",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 503,
+		"NAME" : "MantenimientoEmpresasEmpresasDeshomologarCliente",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 504,
+		"NAME" : "MantenimientoEmpresasEmpresasHomologarProveedor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 505,
+		"NAME" : "MantenimientoEmpresasEmpresasDeshomologarProveedor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 506,
+		"NAME" : "MantenimientoEmpresasEmpresasModificarAutonomo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 507,
+		"NAME" : "MantenimientoEmpresasEmpresasModificarRed",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 508,
+		"NAME" : "MantenimientoEmpresasEmpresasModificarOperador",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 509,
+		"NAME" : "FlujoLogistaPolonia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 510,
+		"NAME" : "FlujoLogistaPoloniaCargaDeMonitoraggio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 511,
+		"NAME" : "GeneralInactivosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 512,
+		"NAME" : "MantenimientoFlotaContratos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 513,
+		"NAME" : "MantenimientoFlotaContratosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 514,
+		"NAME" : "MantenimientoFlotaContratosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 515,
+		"NAME" : "MantenimientoFlotaContratosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 516,
+		"NAME" : "MantenimientoFlotaTiposAveria",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 517,
+		"NAME" : "MantenimientoFlotaTiposAveriaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 518,
+		"NAME" : "MantenimientoFlotaTiposAveriaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 519,
+		"NAME" : "MantenimientoFlotaTiposAveriaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 520,
+		"NAME" : "MantenimientoFlotaAlarmasGps",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 521,
+		"NAME" : "MantenimientoFlotaAlarmasGpsAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 522,
+		"NAME" : "MantenimientoFlotaAlarmasGpsEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 523,
+		"NAME" : "MantenimientoFlotaAlarmasGpsBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 524,
+		"NAME" : "MantenimientoFlotaTalleres",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 525,
+		"NAME" : "MantenimientoFlotaTalleresAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 526,
+		"NAME" : "MantenimientoFlotaTalleresEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 527,
+		"NAME" : "MantenimientoFlotaTalleresBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 528,
+		"NAME" : "MantenimientoFlotaTalleresDirecciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 529,
+		"NAME" : "MantenimientoFlotaConductoresGeneral",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 530,
+		"NAME" : "MantenimientoFlotaConductoresSeguridad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 531,
+		"NAME" : "MantenimientoFlotaConductoresHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 532,
+		"NAME" : "MantenimientoFlotaConductoresSeguridadEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 533,
+		"NAME" : "MantenimientoFlotaTractorasGeneral",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 534,
+		"NAME" : "MantenimientoFlotaTractorasSeguridad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 535,
+		"NAME" : "MantenimientoFlotaTractorasSeguridadEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 536,
+		"NAME" : "MantenimientoFlotaTractorasHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 537,
+		"NAME" : "MantenimientoFlotaRemolquesGeneral",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 538,
+		"NAME" : "MantenimientoFlotaRemolquesDocumentacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 539,
+		"NAME" : "MantenimientoFlotaRemolquesAdministrativos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 540,
+		"NAME" : "MantenimientoFlotaRemolquesSeguridad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 541,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimiento",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 542,
+		"NAME" : "MantenimientoFlotaRemolquesHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 543,
+		"NAME" : "MantenimientoFlotaRemolquesDocumentacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 544,
+		"NAME" : "MantenimientoFlotaRemolquesAdministrativosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 545,
+		"NAME" : "MantenimientoFlotaRemolquesSeguridadEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 546,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 547,
+		"NAME" : "MantenimientoFlotaRemolques",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 548,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoAverias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 549,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoAveriasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 550,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoAveriasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 551,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoAveriasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 581,
+		"NAME" : "AnalisisRutasExaminarComunicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 582,
+		"NAME" : "MantenimientoFlotaInformes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 570,
+		"NAME" : "FacturacionFacturasFechaEnvio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 592,
+		"NAME" : "MantenimientoExclusivosTiposReclamacionesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 593,
+		"NAME" : "MantenimientoExclusivosTiposReclamacionesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 594,
+		"NAME" : "MantenimientoExclusivosGestoresVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 595,
+		"NAME" : "MantenimientoExclusivosGestoresEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 597,
+		"NAME" : "MantenimientoCalendarioTractorasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 596,
+		"NAME" : "MantenimientoCalendarioTractorasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 598,
+		"NAME" : "MantenimientoExclusivosGestorReclamacionesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 599,
+		"NAME" : "MantenimientoExclusivosGestorReclamacionesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 602,
+		"NAME" : "MantenimientoEmpresaEditarTelefonoFax",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 600,
+		"NAME" : "GeneralPrecioProveedorKilometrosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 601,
+		"NAME" : "GeneralPrecioProveedorKilometrosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 605,
+		"NAME" : "MantenimientoFacturacionTipoIncidenciasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 606,
+		"NAME" : "MantenimientoFacturacionTipoIncidenciasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 603,
+		"NAME" : "GeneralModificarFlotaSinRestricciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 604,
+		"NAME" : "MantenimientoFlotaTractorasGeneralEditarFalloTractora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 607,
+		"NAME" : "MantenimientoRedCentrosEditarParametrosMaxPernocta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 608,
+		"NAME" : "MantenimientoRedCentrosEditarParametrosPlazasPernocta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 609,
+		"NAME" : "AnalisisViajesVerViajesEditarEstadosCentro",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 610,
+		"NAME" : "AnalisisViajesVerViajesEditarEstadosProveedor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 611,
+		"NAME" : "AnalisisViajesVerViajesEditarEstadosAdministrador",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 612,
+		"NAME" : "FlujoSos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 613,
+		"NAME" : "FlujoSosPedidos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 614,
+		"NAME" : "FlujoSosMensajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 615,
+		"NAME" : "FlujoSosEnvios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 616,
+		"NAME" : "MantenimientoEmpresasEditarEmpresaCambiarCif",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 620,
+		"NAME" : "AnalisisGeneralSemaforoVerRojo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 621,
+		"NAME" : "AnalisisGeneralSemaforoVerMagenta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 622,
+		"NAME" : "AnalisisGeneralSemaforoVerAmarillo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 623,
+		"NAME" : "AnalisisGeneralSemaforoVerMarron",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 624,
+		"NAME" : "AnalisisGeneralSemaforoVerAzul",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 625,
+		"NAME" : "AnalisisGeneralSemaforoVerVerde",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 626,
+		"NAME" : "AnalisisGeneralSemaforoVerHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 627,
+		"NAME" : "GeneralFechasFechaOperacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 628,
+		"NAME" : "AnalisisGeneralSemaforoVerNaranja",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 617,
+		"NAME" : "AnalisisGeneralParadasRepartosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 618,
+		"NAME" : "AnalisisGeneralParadasRepartosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 619,
+		"NAME" : "AnalisisGeneralParadasRepartosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 629,
+		"NAME" : "AnalisisNviajesNviajesCancelOrder",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 630,
+		"NAME" : "AnalisisListadoInformeKpi",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 631,
+		"NAME" : "AnalisisGeneralResolverFueraVentana",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 632,
+		"NAME" : "AnalisisViajesVerViajesDatosSMS",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 633,
+		"NAME" : "AnalisisViajesVerViajesEditarMercanciasEditarEstadoMercancia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 635,
+		"NAME" : "AnalisisViajesVerViajesEditarConceptosEditarEstadoConcepto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 634,
+		"NAME" : "AnalisisListadoRentabilidad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 636,
+		"NAME" : "GeneralDatosViajeIncidenciaKpiVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 637,
+		"NAME" : "GeneralDatosAduanasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 638,
+		"NAME" : "GeneralDatosAduanasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 640,
+		"NAME" : "MantenimientoFlotaRemolquesEditarCaracteristicasRemolque",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 641,
+		"NAME" : "GeneralViajesObservacionesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 642,
+		"NAME" : "GeneralViajesObservacionesAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 643,
+		"NAME" : "MantenimientoFlotaRemolquesAlertas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 644,
+		"NAME" : "FacturacionFacturasContabilizarSap",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 645,
+		"NAME" : "MantenimientoFlotaRemolquesGestionFilial",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 639,
+		"NAME" : "MantenimientoUsuariosUsuariosEditarDesbloquear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 646,
+		"NAME" : "FlujoLoreal",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 647,
+		"NAME" : "FlujoLorealMsgs",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 649,
+		"NAME" : "MantenimientoFlotaCRA",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 650,
+		"NAME" : "MantenimientoFlotaCRAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 651,
+		"NAME" : "MantenimientoFlotaCRAEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 652,
+		"NAME" : "MantenimientoFlotaCRABorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 655,
+		"NAME" : "FacturacionFacturasImprimir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 653,
+		"NAME" : "MantenimientoEmpresasKpiResponsableVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 654,
+		"NAME" : "MantenimientoEmpresasKpiResponsableEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 672,
+		"NAME" : "FlujoBitmakers",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 673,
+		"NAME" : "FlujoBitmakersMsgs",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 675,
+		"NAME" : "ModuloCobrosUsuarioGestor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 674,
+		"NAME" : "AnalisisNviajesNviajesComentariosInternosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 676,
+		"NAME" : "GeneralPrecioClienteViajePendienteVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 552,
+		"NAME" : "MantenimientoFacturacionModelosFactura",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 553,
+		"NAME" : "MantenimientoFacturacionModelosFacturaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 554,
+		"NAME" : "MantenimientoFacturacionModelosFacturaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 555,
+		"NAME" : "MantenimientoFacturacionModelosFacturaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 556,
+		"NAME" : "GeneralModeloFacturaCambiar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 557,
+		"NAME" : "AnalisisNviajesNviajesComentarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 558,
+		"NAME" : "AnalisisNviajesNviajesComentariosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 559,
+		"NAME" : "AnalisisNviajesNviajesCriticosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 560,
+		"NAME" : "AnalisisNviajesNviajesCriticosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 561,
+		"NAME" : "GeneralAvisosComentariosInternos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 562,
+		"NAME" : "FlujoApo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 563,
+		"NAME" : "FlujoApoRecibidos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 564,
+		"NAME" : "FlujoApoRecibidosReintentar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 565,
+		"NAME" : "FlujoApoEnvios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 566,
+		"NAME" : "FlujoApoEnviosReintentar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 722,
+		"NAME" : "AnalisisViajesVerViajesDatosProcedencia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 723,
+		"NAME" : "MantenimientoUsuariosUsuariosClavesAjenas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 571,
+		"NAME" : "GeneralPrecioGestionViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 572,
+		"NAME" : "GeneralPrecioGestionViajePorDefectoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 573,
+		"NAME" : "GeneralPrecioGestionViajePorDefectoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 574,
+		"NAME" : "GeneralPrecioGestionViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 575,
+		"NAME" : "GeneralGestionLIViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 576,
+		"NAME" : "GeneralGestionLIViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 577,
+		"NAME" : "GeneralGestionLIViajePorDefectoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 578,
+		"NAME" : "GeneralGestionLIViajePorDefectoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 580,
+		"NAME" : "MantenimientoEmpresasGestionCuentasContablesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 579,
+		"NAME" : "MantenimientoEmpresasGestionCuentasContablesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 583,
+		"NAME" : "MantenimientoFlotaConductoresVerTelefonoTractora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 584,
+		"NAME" : "AnalisisViajesVerViajesVerTelefonoTractora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 585,
+		"NAME" : "AnalisisViajesVerViajesVerClave",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 586,
+		"NAME" : "AnalisisCalendariosCalendariosVerTelefonoTractora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 587,
+		"NAME" : "AnalisisCalendariosCalendariosVerClave",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 588,
+		"NAME" : "AnalisisViajesPernoctasVerTelefonoTractora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 589,
+		"NAME" : "AnalisisViajesPernoctasVerClave",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 590,
+		"NAME" : "AnalisisRutasExaminarVerTelefonoTractora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 591,
+		"NAME" : "AnalisisRutasExaminarVerClave",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 656,
+		"NAME" : "GeneralSeguridadTrayectosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 657,
+		"NAME" : "GeneralSeguridadTrayectosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 658,
+		"NAME" : "MantenimientoRedCentrosEditarMapa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 659,
+		"NAME" : "MantenimientoViajesPorDefectoPlantillasSmss",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 660,
+		"NAME" : "MantenimientoViajesPorDefectoPlantillasSmssEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 661,
+		"NAME" : "AnalisisHistoricoSms",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 662,
+		"NAME" : "GeneralSeguridadUltimasPosiciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 663,
+		"NAME" : "GeneralSeguridadSeguimientosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 664,
+		"NAME" : "GeneralSeguridadSeguimientosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 665,
+		"NAME" : "GeneralSeguridadAlertasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 666,
+		"NAME" : "GeneralSeguridadAlertasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 667,
+		"NAME" : "GeneralSeguridadAlertasCerrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 668,
+		"NAME" : "GeneralSeguridadVerOtrosMapas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 669,
+		"NAME" : "MantenimientoViajesPorDefectoHistoricoTarifas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 670,
+		"NAME" : "MantenimientoPrecioKilometrosProveedorHistoricoTarifas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 671,
+		"NAME" : "MantenimientoEmpresasBasesTransporteActualizarTarifasViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 677,
+		"NAME" : "FacturacionFacturasDatosFacturaModificarDpp",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 678,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoContratosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 679,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoContratosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 680,
+		"NAME" : "MantenimientoFlotaRemolquesMantenimientoContratosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 681,
+		"NAME" : "FacturacionBloquearTeseo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 682,
+		"NAME" : "AnalisisViajesVerViajesEditarKilometrosVerComentarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 683,
+		"NAME" : "AnalisisViajesVerViajesEditarKilometrosEditarComentarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 684,
+		"NAME" : "AnalisisViajesVerViajesEditarDescripcion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 288,
+		"NAME" : "MantenimientoGeneralProvinciasPaisAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 289,
+		"NAME" : "MantenimientoGeneralProvinciasPaisBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 290,
+		"NAME" : "MantenimientoGeneralProvinciasPaisEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 291,
+		"NAME" : "MantenimientoGeneralTablaDeRentabilidadAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 292,
+		"NAME" : "MantenimientoGeneralTablaDeRentabilidadBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 293,
+		"NAME" : "MantenimientoGeneralTablaDeRentabilidadEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 294,
+		"NAME" : "MantenimientoGeneralTablaDeRentabilidad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 295,
+		"NAME" : "MantenimientoProductos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 296,
+		"NAME" : "MantenimientoProductosTiposDeMercancia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 456,
+		"NAME" : "MantenimientoFlotaSateliteDeRemolquesBaseEditarEstado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 461,
+		"NAME" : "FacturacionFacturasDatosFacturaModificarDireccion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 462,
+		"NAME" : "MantenimientoFlotaSateliteDeRemolquesBaseEditarComentario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 457,
+		"NAME" : "MantenimientoPallets",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 458,
+		"NAME" : "MantenimientoPalletsProveedores",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 459,
+		"NAME" : "AnalisisExpedientes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 460,
+		"NAME" : "AnalisisExpedientesVerExpedientes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 463,
+		"NAME" : "AnalisisListadoConductores",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 464,
+		"NAME" : "GeneralSeguridadVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 465,
+		"NAME" : "GeneralSeguridadEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 466,
+		"NAME" : "GeneralControlAlbaranesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 467,
+		"NAME" : "GeneralControlAlbaranesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 468,
+		"NAME" : "MantenimientoEmpresasFilialesAsignarBasesTransporte",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 469,
+		"NAME" : "AnalisisListadoTarifasOrigenDestino",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 305,
+		"NAME" : "MantenimientoRedCentros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 306,
+		"NAME" : "MantenimientoRedCentrosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 307,
+		"NAME" : "MantenimientoRedCentrosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 308,
+		"NAME" : "MantenimientoRedCentrosCalendario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 309,
+		"NAME" : "MantenimientoRedCentrosCaracteristicas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 310,
+		"NAME" : "MantenimientoRedCentrosContactos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 311,
+		"NAME" : "MantenimientoRedCentrosEditarCalendario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 312,
+		"NAME" : "MantenimientoRedCentrosEditarCaracteristicas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 313,
+		"NAME" : "MantenimientoRedCentrosEditarContactos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 314,
+		"NAME" : "MantenimientoRedCentrosEditarHorarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 315,
+		"NAME" : "MantenimientoRedCentrosEditarInformacionAdicional",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 316,
+		"NAME" : "MantenimientoRedCentrosEditarParametros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 317,
+		"NAME" : "MantenimientoRedCentrosHorarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 318,
+		"NAME" : "MantenimientoRedCentrosInformacionAdicional",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 319,
+		"NAME" : "MantenimientoRedCentrosParametros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 320,
+		"NAME" : "MantenimientoRedDireccionesDeEntregaNegocio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 321,
+		"NAME" : "MantenimientoRedDireccionesDeEntregaNegocioAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 322,
+		"NAME" : "MantenimientoRedDireccionesDeEntregaNegocioBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 323,
+		"NAME" : "MantenimientoRedDireccionesDeEntregaNegocioEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 324,
+		"NAME" : "MantenimientoRedDistanciasCalcular",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 325,
+		"NAME" : "MantenimientoRedNodos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 326,
+		"NAME" : "MantenimientoRedNodosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 327,
+		"NAME" : "MantenimientoRedNodosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 328,
+		"NAME" : "MantenimientoRedNodosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 329,
+		"NAME" : "MantenimientoRedZonasDeOferta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 330,
+		"NAME" : "MantenimientoRedZonasDeOfertaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 331,
+		"NAME" : "MantenimientoRedZonasDeOfertaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 332,
+		"NAME" : "MantenimientoRedZonasDeOfertaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 333,
+		"NAME" : "MantenimientoRedZonasEconomicas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 334,
+		"NAME" : "MantenimientoRedZonasEconomicasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 335,
+		"NAME" : "MantenimientoRedZonasEconomicasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 336,
+		"NAME" : "MantenimientoRedZonasEconomicasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 337,
+		"NAME" : "MantenimientoUltimaHora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 338,
+		"NAME" : "MantenimientoUltimaHoraActualizar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 339,
+		"NAME" : "MantenimientoUltimaHoraLimpiar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 340,
+		"NAME" : "MantenimientoUsuarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 341,
+		"NAME" : "MantenimientoUsuariosPerfiles",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 342,
+		"NAME" : "MantenimientoUsuariosUsuarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 343,
+		"NAME" : "MantenimientoUsuariosUsuariosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 344,
+		"NAME" : "MantenimientoUsuariosUsuariosAlertas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 345,
+		"NAME" : "MantenimientoUsuariosUsuariosBaja",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 346,
+		"NAME" : "MantenimientoUsuariosUsuariosClaves",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 347,
+		"NAME" : "MantenimientoUsuariosUsuariosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 348,
+		"NAME" : "MantenimientoUsuariosUsuariosHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 349,
+		"NAME" : "MantenimientoUsuariosUsuariosIncidencias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 350,
+		"NAME" : "MantenimientoUsuariosUsuariosPermisos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 351,
+		"NAME" : "MantenimientoUsuariosUsuariosLoginAs",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 352,
+		"NAME" : "MantenimientoVersion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 353,
+		"NAME" : "MantenimientoViajesPorDefecto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 354,
+		"NAME" : "MantenimientoViajesPorDefectoActualizar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 355,
+		"NAME" : "MantenimientoViajesPorDefectoAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 356,
+		"NAME" : "MantenimientoViajesPorDefectoBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 357,
+		"NAME" : "MantenimientoViajesPorDefectoDetalle",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 358,
+		"NAME" : "MantenimientoViajesPorDefectoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 359,
+		"NAME" : "Optimizacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 360,
+		"NAME" : "OptimizacionOptimizarAcerinox",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 361,
+		"NAME" : "OptimizacionOptimizarInternacional",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 362,
+		"NAME" : "MantenimientoViajesPorDefectoTarifasBase",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 363,
+		"NAME" : "FacturacionFacturasDatosFacturaConceptoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 364,
+		"NAME" : "AnalisisListado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 365,
+		"NAME" : "AnalisisListadoTarifas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 366,
+		"NAME" : "AnalisisCalendariosCalendariosVerPernoctas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 367,
+		"NAME" : "MantenimientoGeneralRequisitos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 368,
+		"NAME" : "MantenimientoGeneralRequisitosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 369,
+		"NAME" : "MantenimientoFlotaConductoresRequisitos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 370,
+		"NAME" : "MantenimientoFlotaConductoresRequisitosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 371,
+		"NAME" : "MantenimientoFlotaTractorasRequisitos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 372,
+		"NAME" : "MantenimientoFlotaTractorasRequisitosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 373,
+		"NAME" : "MantenimientoFlotaRemolquesRequisitos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 374,
+		"NAME" : "MantenimientoFlotaRemolquesRequisitosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 375,
+		"NAME" : "MantenimientoEmpresasEmpresasRequisitos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 376,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarRequisitos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 377,
+		"NAME" : "FacturacionFacturasContabilizar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 378,
+		"NAME" : "GeneralIncidenciasAlta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 379,
+		"NAME" : "AnalisisListadoAuditoriaTarifas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 380,
+		"NAME" : "GeneralControlFaxTransportista",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 381,
+		"NAME" : "AnalisisViajesVerViajesDatosFaxTransportista",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 382,
+		"NAME" : "AnalisisRutasExaminarFaxTransportista",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 383,
+		"NAME" : "FacturacionFacturasNumerar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 384,
+		"NAME" : "AnalisisListadoBases",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 385,
+		"NAME" : "AnalisisViajesVerViajesDatosFacturas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 386,
+		"NAME" : "GeneralDatosViajeAdjuntosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 387,
+		"NAME" : "GeneralDatosViajeAdjuntosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 388,
+		"NAME" : "GeneralDatosPhillipMorrisEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 389,
+		"NAME" : "GeneralDatosPhillipMorrisVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 390,
+		"NAME" : "MantenimientoFacturacionPhillipMorris",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 391,
+		"NAME" : "MantenimientoFacturacionPhillipMorrisEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 392,
+		"NAME" : "FlujoLogistaItaliaCargaDeMonitoraggio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 393,
+		"NAME" : "MantenimientoViajesPorDefectoTarifasBaseEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 394,
+		"NAME" : "AnalisisRutasExaminarModificarHorariosDirecto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 395,
+		"NAME" : "MantenimientoFlotaConductoresVerClave",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 396,
+		"NAME" : "FlujoLogistaItalia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 397,
+		"NAME" : "FlujoLogistaItaliaGlobalOrder",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 398,
+		"NAME" : "AnalisisRutasExaminarModificarViajePorDefecto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 399,
+		"NAME" : "GeneralDatosFechasReales",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 400,
+		"NAME" : "GeneralFax",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 401,
+		"NAME" : "MantenimientoGeneralFax",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 402,
+		"NAME" : "AnalisisCalendariosCalendariosConfirmarConfirmarHoraReal",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 403,
+		"NAME" : "AnalisisCalendariosCalendariosConfirmarConfirmarOperacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 404,
+		"NAME" : "AnalisisRutasExaminarConfirmarHoraReal",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 405,
+		"NAME" : "AnalisisRutasExaminarConfirmarOperacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 406,
+		"NAME" : "AnalisisCalendariosCalendariosDesConfirmar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 407,
+		"NAME" : "AnalisisRutasExaminarDesConfirmarOperacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 408,
+		"NAME" : "AnalisisViajesVerViajesEditarCesarTransporte",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 409,
+		"NAME" : "GeneralDatosEsporadicos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 410,
+		"NAME" : "GeneralDatosEsporadicosContables",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 411,
+		"NAME" : "AnalisisViajesPernoctas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 412,
+		"NAME" : "MantenimientoEmpresasEmpresasContactosAuditoria",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 413,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarContactosAuditoria",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 414,
+		"NAME" : "AnalisisRutasExaminarModificarHorariosCentro",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 415,
+		"NAME" : "MantenimientoEmpresasEmpresasExportarInformeAuditoria",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 416,
+		"NAME" : "MantenimientoEmpresasEmpresasImportarInformeAuditoria",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 417,
+		"NAME" : "AnalisisViajesGestionExclusivos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 418,
+		"NAME" : "MantenimientoGeneralRequisitosActualizar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 419,
+		"NAME" : "AnalisisVerMovilConductor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 420,
+		"NAME" : "AccesoForo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 421,
+		"NAME" : "AccesoBugzilla",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 422,
+		"NAME" : "AnalisisRutasExaminarModificarFlotaConductorCambiarBaseTransporte",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 423,
+		"NAME" : "MantenimientoViajesPorDefectoEditarFilial",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 424,
+		"NAME" : "AnalisisNviajesNviajesResolverFiliales",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 425,
+		"NAME" : "AnalisisNviajesNviajesResolverFilialesTraspasar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 426,
+		"NAME" : "AnalisisIndicadores",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 427,
+		"NAME" : "AnalisisIndicadoresBolsaCargas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 429,
+		"NAME" : "FlujoLogistaFranciaCargaDeMonitoraggio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 428,
+		"NAME" : "FlujoLogistaFrancia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 430,
+		"NAME" : "MantenimientoViajesPorDefectoCarga",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 431,
+		"NAME" : "AnalisisProveedoresExclusivos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 432,
+		"NAME" : "AnalisisProveedoresExclusivosBolsaDeCargas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 433,
+		"NAME" : "AnalisisProveedoresExclusivosRotaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 434,
+		"NAME" : "AnalisisProveedoresExclusivosProductividad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 435,
+		"NAME" : "AnalisisProveedoresExclusivosPrefacturacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 436,
+		"NAME" : "AnalisisProveedoresExclusivosCompromiso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 437,
+		"NAME" : "AnalisisProveedoresExclusivosEvalProveed",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 438,
+		"NAME" : "AnalisisProveedoresExclusivosRentabilidad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 439,
+		"NAME" : "AnalisisProveedoresExclusivosComunicAuto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 440,
+		"NAME" : "RecibirCorreoDiasFestivos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 441,
+		"NAME" : "AnalysisProveedoresExclusivosTransVSRed",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 442,
+		"NAME" : "GeneralNombreCompletoRuta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 443,
+		"NAME" : "AnalysisProveedoresExclusivosGestionBajas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 444,
+		"NAME" : "AnalysisProveedoresExclusivosGestionReclamaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 445,
+		"NAME" : "GeneralPrecioFilialViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 446,
+		"NAME" : "GeneralPrecioFilialViajePorDefectoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 447,
+		"NAME" : "GeneralPrecioFilialViajePorDefectoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 448,
+		"NAME" : "GeneralPrecioFilialViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 449,
+		"NAME" : "FacturacionFacturasEnviar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 472,
+		"NAME" : "MantenimientoPalletsClases",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 473,
+		"NAME" : "MantenimientoPalletsClasesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 474,
+		"NAME" : "MantenimientoPalletsZonas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 475,
+		"NAME" : "MantenimientoPalletsZonasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 476,
+		"NAME" : "MantenimientoPalletsTarifasProveedor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 477,
+		"NAME" : "MantenimientoPalletsTarifasProveedorEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 478,
+		"NAME" : "MantenimientoPalletsDatosCliente",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 479,
+		"NAME" : "MantenimientoPalletsDatosClienteEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 480,
+		"NAME" : "MantenimientoPalletsListaPrecios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 481,
+		"NAME" : "MantenimientoPalletsListaPreciosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 487,
+		"NAME" : "GeneralIdiomasTraducirEspanol",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 488,
+		"NAME" : "GeneralIdiomasTraducirIngles",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 489,
+		"NAME" : "GeneralIdiomasTraducirFrances",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 490,
+		"NAME" : "GeneralIdiomasTraducirAleman",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 491,
+		"NAME" : "GeneralIdiomasTraducirItaliano",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 492,
+		"NAME" : "GeneralIdiomasTraducirPortugues",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 493,
+		"NAME" : "GeneralIdiomasTraducirPolaco",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 494,
+		"NAME" : "MantenimientoGeneralRestricciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 495,
+		"NAME" : "AnalisisOcupacionCentrosPernoctas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 496,
+		"NAME" : "AnalisisViajesConfirmarCondicionantes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 482,
+		"NAME" : "FacturacionFacturasRectificacionVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 483,
+		"NAME" : "FacturacionFacturasRectificacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 484,
+		"NAME" : "FacturacionFacturasPeriodo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 485,
+		"NAME" : "MantenimientoViajesPorDefectoDescargar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 486,
+		"NAME" : "AnalisisListadoExpediciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 497,
+		"NAME" : "AnalisisListadoValidationStatus",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 151,
+		"NAME" : "GeneralPrecioProveedorViajePorDefectoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 152,
+		"NAME" : "GeneralPrecioProveedorViajePorDefectoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 153,
+		"NAME" : "GeneralPrecioProveedorViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 154,
+		"NAME" : "GeneralPrecioTeoricoViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 155,
+		"NAME" : "GeneralPrecioTeoricoViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 156,
+		"NAME" : "Incidencias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 157,
+		"NAME" : "IncidenciasOfertas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 158,
+		"NAME" : "IncidenciasOfertasEnBase",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 450,
+		"NAME" : "MantenimientoEmpresasFiliales",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 451,
+		"NAME" : "MantenimientoEmpresasFilialesAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 452,
+		"NAME" : "MantenimientoEmpresasFilialesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 453,
+		"NAME" : "MantenimientoEmpresasFilialesBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 454,
+		"NAME" : "MantenimientoEmpresasProveedoresGPS",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 455,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesEditarFilial",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1,
+		"NAME" : "Analisis",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 2,
+		"NAME" : "AnalisisCalendarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 3,
+		"NAME" : "AnalisisCalendariosCalendarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 4,
+		"NAME" : "AnalisisCalendariosCalendariosComentario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 5,
+		"NAME" : "AnalisisCalendariosCalendariosComentarioAceptar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 6,
+		"NAME" : "AnalisisCalendariosCalendariosConfirmar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 7,
+		"NAME" : "AnalisisCalendariosCalendariosConfirmarConfirmarPrecio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 8,
+		"NAME" : "GeneralControl",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 9,
+		"NAME" : "GeneralControlCodConvoy",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 10,
+		"NAME" : "GeneralControlFaxAltadis",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 11,
+		"NAME" : "GeneralControlFaxSeita",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 12,
+		"NAME" : "GeneralControlNuevaPernocta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 13,
+		"NAME" : "GeneralControlNuevaPernoctaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 14,
+		"NAME" : "AnalisisCalendariosCalendariosDatos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 15,
+		"NAME" : "AnalisisCalendariosCalendariosDatosConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 16,
+		"NAME" : "AnalisisCalendariosCalendariosDatosConceptosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 17,
+		"NAME" : "AnalisisCalendariosCalendariosDatosConceptosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 18,
+		"NAME" : "AnalisisCalendariosCalendariosDatosConceptosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 19,
+		"NAME" : "AnalisisCalendariosCalendariosDatosFlotaConductor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 20,
+		"NAME" : "AnalisisCalendariosCalendariosDatosFotoConductor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 21,
+		"NAME" : "AnalisisCalendariosCalendariosDatosFotoRemolque",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 22,
+		"NAME" : "AnalisisCalendariosCalendariosDatosFotoTractora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 23,
+		"NAME" : "AnalisisCalendariosCalendariosDatosMercancias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 24,
+		"NAME" : "AnalisisCalendariosCalendariosDatosMercanciasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 25,
+		"NAME" : "AnalisisCalendariosCalendariosDatosMercanciasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 26,
+		"NAME" : "AnalisisCalendariosCalendariosDatosMercanciasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 27,
+		"NAME" : "AnalisisCalendariosCalendariosDatosUnidades",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 28,
+		"NAME" : "AnalisisCalendariosCalendariosDatosUnidadesModificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 29,
+		"NAME" : "AnalisisCalendariosCalendariosHorarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 30,
+		"NAME" : "AnalisisCalendariosCalendariosImprimir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 31,
+		"NAME" : "AnalisisCalendariosCalendariosParadas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 32,
+		"NAME" : "AnalisisCalendariosCalendariosParadasRepartosDireccionEntrega",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 33,
+		"NAME" : "AnalisisCalendariosCalendariosParadasRepartosDireccionEntregaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 34,
+		"NAME" : "AnalisisCalendariosCalendariosParadasRepartosDireccionEntregaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 35,
+		"NAME" : "AnalisisCalendariosCalendariosParadasRepartosDireccionEntregaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 36,
+		"NAME" : "AnalisisListadoViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 37,
+		"NAME" : "AnalisisListadoViajesConfigurar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 38,
+		"NAME" : "AnalisisListadoViajesConfMercYConcp",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 39,
+		"NAME" : "AnalisisListadoViajesInformeMercYConcp",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 40,
+		"NAME" : "AnalisisListadoViajesInformeViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 41,
+		"NAME" : "AnalisisListadoViajesObtenerFicheroViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 42,
+		"NAME" : "AnalisisListadoViajesObtenerMercYConcp",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 43,
+		"NAME" : "AnalisisNviajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 44,
+		"NAME" : "AnalisisNviajesNviajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 45,
+		"NAME" : "AnalisisNviajesNviajesEliminar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 46,
+		"NAME" : "AnalisisNviajesNviajesModificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 47,
+		"NAME" : "AnalisisNviajesNviajesOptimizar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 48,
+		"NAME" : "AnalisisNviajesNviajesPedirViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 49,
+		"NAME" : "AnalisisNviajesNviajesResolver",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 50,
+		"NAME" : "AnalisisNviajesNviajesResolverPedirSuelto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 51,
+		"NAME" : "AnalisisNviajesNviajesResolverResolver",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 52,
+		"NAME" : "AnalisisNviajesNviajesResolverResolverManual",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 53,
+		"NAME" : "AnalisisRutas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 54,
+		"NAME" : "AnalisisRutasExaminar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 55,
+		"NAME" : "AnalisisRutasExaminarConfirmar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 56,
+		"NAME" : "AnalisisRutasExaminarConfirmarValidarPrecio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 57,
+		"NAME" : "AnalisisRutasExaminarDetalleRuta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 58,
+		"NAME" : "AnalisisRutasExaminarDetalleRutaCondicionantes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 59,
+		"NAME" : "AnalisisRutasExaminarDetalleRutaDireccionEntrega",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 60,
+		"NAME" : "AnalisisRutasExaminarDetalleRutaDireccionEntregaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 61,
+		"NAME" : "AnalisisRutasExaminarDetalleRutaDireccionEntregaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 62,
+		"NAME" : "AnalisisRutasExaminarDetalleRutaDireccionEntregaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 63,
+		"NAME" : "AnalisisRutasExaminarDetalleRutaGuardarPR",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 64,
+		"NAME" : "AnalisisRutasExaminarDetalleRutaObservaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 65,
+		"NAME" : "AnalisisRutasExaminarImprimir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 66,
+		"NAME" : "AnalisisRutasExaminarModificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 67,
+		"NAME" : "AnalisisRutasExaminarModificarAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 68,
+		"NAME" : "AnalisisRutasExaminarModificarComposicion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 69,
+		"NAME" : "AnalisisRutasExaminarModificarComposicionEliminar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 70,
+		"NAME" : "AnalisisRutasExaminarModificarComposicionPartir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 71,
+		"NAME" : "AnalisisRutasExaminarModificarComposicionSustituir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 72,
+		"NAME" : "AnalisisRutasExaminarModificarEliminar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 73,
+		"NAME" : "AnalisisRutasExaminarModificarFlotaConductor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 74,
+		"NAME" : "AnalisisRutasExaminarModificarHorarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 75,
+		"NAME" : "AnalisisRutasExaminarModificarKilometros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 76,
+		"NAME" : "AnalisisRutasExaminarModificarTarifa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 77,
+		"NAME" : "AnalisisRutasExaminarPernoctaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 78,
+		"NAME" : "AnalisisRutasExaminarPublicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 79,
+		"NAME" : "AnalisisRutasGenerar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 80,
+		"NAME" : "AnalisisRutasPublicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 81,
+		"NAME" : "AnalisisViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 82,
+		"NAME" : "AnalisisViajesVerViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 83,
+		"NAME" : "AnalisisViajesVerViajesComentarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 84,
+		"NAME" : "AnalisisViajesVerViajesComentariosAceptar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 85,
+		"NAME" : "AnalisisViajesVerViajesDatosConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 86,
+		"NAME" : "AnalisisViajesVerViajesDatosConceptosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 87,
+		"NAME" : "AnalisisViajesVerViajesDatosConceptosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 88,
+		"NAME" : "AnalisisViajesVerViajesDatosConceptosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 89,
+		"NAME" : "AnalisisViajesVerViajesDatosKilometros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 90,
+		"NAME" : "AnalisisViajesVerViajesDatosMercancias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 91,
+		"NAME" : "AnalisisViajesVerViajesDatosMercanciasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 92,
+		"NAME" : "AnalisisViajesVerViajesDatosMercanciasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 93,
+		"NAME" : "AnalisisViajesVerViajesDatosMercanciasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 94,
+		"NAME" : "AnalisisViajesVerViajesDatosParadasRepartos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 95,
+		"NAME" : "AnalisisViajesVerViajesDatosParadasRepartosDireccionEntrega",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 96,
+		"NAME" : "AnalisisViajesVerViajesDatosParadasRepartosDireccionEntregaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 97,
+		"NAME" : "AnalisisViajesVerViajesDatosParadasRepartosDireccionEntregaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 98,
+		"NAME" : "AnalisisViajesVerViajesDatosParadasRepartosDireccionEntregaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 99,
+		"NAME" : "AnalisisViajesVerViajesDatosVertotales",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 100,
+		"NAME" : "AnalisisViajesVerViajesEditarClienteDavidMoreno",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 101,
+		"NAME" : "AnalisisViajesVerViajesEditarEstados",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 102,
+		"NAME" : "AnalisisViajesVerViajesEditarKilometros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 103,
+		"NAME" : "AnalisisViajesVerViajesEditarMatriculas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 685,
+		"NAME" : "MantenimientoFacturacionConceptosFacturacionComprasAcceso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 686,
+		"NAME" : "MantenimientoFacturacionConceptosFacturacionComprasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 687,
+		"NAME" : "MantenimientoFacturacionConceptosFacturacionComprasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 688,
+		"NAME" : "MantenimientoFacturacionConceptosFacturacionComprasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 689,
+		"NAME" : "MantenimientoFlotaTractorasFacturacionVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 690,
+		"NAME" : "MantenimientoFlotaTractorasFacturacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 691,
+		"NAME" : "MantenimientoFlotaRemolquesFacturacionVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 692,
+		"NAME" : "MantenimientoFlotaRemolquesFacturacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 693,
+		"NAME" : "FacturacionFlotaConsultaConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 694,
+		"NAME" : "FacturacionFlotaGeneracionAutomaticaConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 695,
+		"NAME" : "FacturacionFlota",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 696,
+		"NAME" : "FacturacionFlotaConsultaConceptosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 697,
+		"NAME" : "FacturacionFlotaConsultaConceptosModificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 698,
+		"NAME" : "FacturacionFlotaConsultaConceptosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 699,
+		"NAME" : "FacturacionFlotaConsultaConceptosRecepcion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 700,
+		"NAME" : "FacturacionFlotaConsultaConceptosFacturar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 701,
+		"NAME" : "FacturacionFlotaConsultaConceptosEditarEstados",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 702,
+		"NAME" : "FacturacionFlotaFacturacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 703,
+		"NAME" : "FacturacionFlotaGenerarFacturas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 704,
+		"NAME" : "FacturacionFlotaFacturacionAceptar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 705,
+		"NAME" : "FacturacionFlotaFacturacionPublicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 706,
+		"NAME" : "FacturacionFlotaFacturacionDespublicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 707,
+		"NAME" : "FacturacionFlotaFacturacionBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 708,
+		"NAME" : "FacturacionFlotaFacturacionNumerar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 709,
+		"NAME" : "FacturacionFlotaFacturacionPeriodo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 710,
+		"NAME" : "FacturacionFlotaFacturacionFechaEnvio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 711,
+		"NAME" : "FacturacionFlotaFacturacionImprimir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 712,
+		"NAME" : "FacturacionFlotaFacturacionVerFactura",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 713,
+		"NAME" : "FacturacionFlotaFacturacionVerRelacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 714,
+		"NAME" : "FacturacionFlotaFacturacionDatos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 715,
+		"NAME" : "FacturacionFlotaFacturacionConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 716,
+		"NAME" : "FacturacionFlotaFacturacionRectificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 717,
+		"NAME" : "FacturacionFlotaFacturacionComentarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 718,
+		"NAME" : "FacturacionFlotaFacturacionEnviar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 719,
+		"NAME" : "FacturacionFlotaFacturacionEnlaceContable",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 720,
+		"NAME" : "AnalisisListadoConceptosCompras",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 721,
+		"NAME" : "AnalisisViajesVerViajesVerSeguimiento",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 724,
+		"NAME" : "MantenimientoFlotaConductoresRechazadoCentro",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 725,
+		"NAME" : "MantenimientoFlotaConductoresRechazadoCentroEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 726,
+		"NAME" : "GeneralRemolqueMatriculaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 727,
+		"NAME" : "GeneralTractoraMatriculaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 728,
+		"NAME" : "GeneralConductorNombreVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 729,
+		"NAME" : "GeneralConductorDNIVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 730,
+		"NAME" : "GeneralConductorTelefonoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 731,
+		"NAME" : "GeneralTractoraTelefonoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 732,
+		"NAME" : "MantenimientoFacturacionParametrosContabilizacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 733,
+		"NAME" : "AnalisisViajesVerViajesEditarKilometrosRestoVacio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 734,
+		"NAME" : "GeneralPrecioSoloConceptosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 735,
+		"NAME" : "GeneralPrecioSoloConceptosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 736,
+		"NAME" : "AnalisisListadoViajesVerTarifasVxd",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 737,
+		"NAME" : "AnalisisListadoCreacionVxd",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 742,
+		"NAME" : "GeneralFechasFechaClienteEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 743,
+		"NAME" : "AnalisisViajesVerViajesDatosEditarUnidadesEditarAlbaran",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 744,
+		"NAME" : "MantenimientoFacturacionModificarEstadoIntegrada",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 747,
+		"NAME" : "GeneralConceptosProveedoresSeguridadVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 748,
+		"NAME" : "GeneralConceptosProveedoresComprasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 749,
+		"NAME" : "FacturacionFlotaFacturacionDesfacturar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 750,
+		"NAME" : "GeneralControlAlbaranesInsertar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 751,
+		"NAME" : "GeneralControlAlbaranesBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 752,
+		"NAME" : "MantenimientoFlotaConductoresVerPosiciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 753,
+		"NAME" : "AnalisisNviajesNviajesApo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 757,
+		"NAME" : "AnalisisListadoSeguimientosAlertas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 759,
+		"NAME" : "ConfirmarFechasAutorizarSalida",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 760,
+		"NAME" : "ConfirmarFechasVerAutorizacionesSalida",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 761,
+		"NAME" : "GeneralAvisosComentariosAdministrador",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 762,
+		"NAME" : "MantenimientoFacturacionTarifasEntreFiliales",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 763,
+		"NAME" : "MantenimientoFacturacionTarifasEntreFilialesAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 764,
+		"NAME" : "MantenimientoFacturacionTarifasEntreFilialesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 765,
+		"NAME" : "MantenimientoFacturacionTarifasEntreFilialesBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 766,
+		"NAME" : "MantenimientoFacturacionTarifasEntreFilialesHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 754,
+		"NAME" : "GeneralServicioOfrecer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 755,
+		"NAME" : "GeneralServicioAnular",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 756,
+		"NAME" : "GeneralServicioHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 758,
+		"NAME" : "MantenimientoFlotaDisponibilidad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 772,
+		"NAME" : "GeneralServicioAnularLocal",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 767,
+		"NAME" : "MantenimientoFacturacionTarifaGestion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 768,
+		"NAME" : "MantenimientoFacturacionTarifaGestionAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 769,
+		"NAME" : "MantenimientoFacturacionTarifaGestionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 770,
+		"NAME" : "MantenimientoFacturacionTarifaGestionBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 771,
+		"NAME" : "MantenimientoFacturacionTarifaGestionHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 773,
+		"NAME" : "GeneralAreaParadaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 774,
+		"NAME" : "GeneralAreaParadaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 775,
+		"NAME" : "GeneralAreaParadaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 776,
+		"NAME" : "GeneralAreaParadaHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 788,
+		"NAME" : "GeneralServicioEnviarMensaje",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 789,
+		"NAME" : "AnalisisViajesVerViajesDatosCartadePorte",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 777,
+		"NAME" : "FacturacionFlotaTarjetasGasoleoImportarArchivosGasoleo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 778,
+		"NAME" : "FacturacionFlotaTarjetasGasoleoGenerarConceptosGasoleo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 779,
+		"NAME" : "FacturacionFlotaTarjetasGasoleoTiposTarjetasPeaje",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 780,
+		"NAME" : "FacturacionFlotaTarjetasGasoleoTiposTarjetasPeajeAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 781,
+		"NAME" : "FacturacionFlotaTarjetasGasoleoTiposTarjetasPeajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 782,
+		"NAME" : "FacturacionFlotaTarjetasGasoleoTiposTarjetasPeajeBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 783,
+		"NAME" : "FacturacionFlotaTarjetasGasoleoInformes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 784,
+		"NAME" : "MantenimientoFlotaTractorasGeneralTarjetas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 785,
+		"NAME" : "MantenimientoFlotaTractorasGeneralTarjetasPeajeAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 786,
+		"NAME" : "MantenimientoFlotaTractorasGeneralTarjetasPeajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 787,
+		"NAME" : "MantenimientoFlotaTractorasGeneralTarjetasPeajeBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 790,
+		"NAME" : "AnalisisCalendariosCalendariosAutorizarVehiculosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 791,
+		"NAME" : "AnalisisCalendariosCalendariosAutorizarVehiculosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 104,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidades",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 105,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesModificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 106,
+		"NAME" : "AnalisisViajesVerViajesRechazar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 107,
+		"NAME" : "AnalisisViajesVerViajesValidar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 108,
+		"NAME" : "Facturacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 109,
+		"NAME" : "FacturacionFacturas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 110,
+		"NAME" : "FacturacionFacturasAceptar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 111,
+		"NAME" : "FacturacionFacturasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 112,
+		"NAME" : "FacturacionFacturasCompletar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 113,
+		"NAME" : "FacturacionFacturasDatosFactura",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 114,
+		"NAME" : "FacturacionFacturasDatosFacturaConceptoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 115,
+		"NAME" : "FacturacionFacturasDatosFacturaModificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 116,
+		"NAME" : "FacturacionFacturasDespublicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 117,
+		"NAME" : "FacturacionFacturasPublicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 118,
+		"NAME" : "FacturacionFacturasPublicarComentario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 119,
+		"NAME" : "FacturacionFacturasReGenerar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 120,
+		"NAME" : "FacturacionFacturasVerComentarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 121,
+		"NAME" : "FacturacionFacturasVerFactura",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 122,
+		"NAME" : "FacturacionFacturasVerRelacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 123,
+		"NAME" : "FacturacionFacturasViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 124,
+		"NAME" : "FacturacionGenerador",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 125,
+		"NAME" : "FacturacionGeneradorGenerarFacturas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 126,
+		"NAME" : "Flujo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 127,
+		"NAME" : "FlujoPatrones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 128,
+		"NAME" : "FlujoPatronesCargaDeFlujo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 129,
+		"NAME" : "FlujoPatronesGenerarRuta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 130,
+		"NAME" : "FlujoPatronesGenerarViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 131,
+		"NAME" : "FlujoPatronesNviajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 132,
+		"NAME" : "FlujoPatronesNviajesAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 133,
+		"NAME" : "FlujoPatronesNviajesBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 134,
+		"NAME" : "FlujoPatronesNviajesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 135,
+		"NAME" : "FlujoPatronesNviajesGenerarNviaje",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 136,
+		"NAME" : "FlujoPatronesRuta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 137,
+		"NAME" : "FlujoPatronesRutaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 138,
+		"NAME" : "FlujoPatronesRutaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 139,
+		"NAME" : "FlujoPatronesRutaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 140,
+		"NAME" : "GeneralPrecioClienteViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 141,
+		"NAME" : "GeneralPrecioClienteViajePorDefectoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 142,
+		"NAME" : "GeneralPrecioClienteViajePorDefectoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 143,
+		"NAME" : "GeneralPrecioClienteViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 297,
+		"NAME" : "MantenimientoProductosTiposDeMercanciaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 298,
+		"NAME" : "MantenimientoProductosTiposDeMercanciaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 299,
+		"NAME" : "MantenimientoProductosTiposDeMercanciaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 300,
+		"NAME" : "MantenimientoRed",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 301,
+		"NAME" : "MantenimientoRedCartografia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 302,
+		"NAME" : "MantenimientoRedCartografiaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 303,
+		"NAME" : "MantenimientoRedCartografiaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 304,
+		"NAME" : "MantenimientoRedCartografiaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 470,
+		"NAME" : "MantenimientoEmpresasClientesEsporadicosImpagados",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 471,
+		"NAME" : "AnalisisRutasExaminarVerMercanciasConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 144,
+		"NAME" : "GeneralPrecioGrupajeViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 145,
+		"NAME" : "GeneralPrecioGrupajeViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 146,
+		"NAME" : "GeneralPrecioOperadorViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 147,
+		"NAME" : "GeneralPrecioOperadorViajePorDefectoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 148,
+		"NAME" : "GeneralPrecioOperadorViajePorDefectoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 149,
+		"NAME" : "GeneralPrecioOperadorViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 150,
+		"NAME" : "GeneralPrecioProveedorViajeEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 159,
+		"NAME" : "IncidenciasOfertasEnBaseBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 160,
+		"NAME" : "IncidenciasOfertasEnBaseGenOferta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 161,
+		"NAME" : "IncidenciasOfertasEnBaseResAM",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 162,
+		"NAME" : "IncidenciasOfertasEnBaseResolver",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 163,
+		"NAME" : "IncidenciasOfertasFueraDeBase",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 164,
+		"NAME" : "IncidenciasOfertasFueraDeBaseBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 165,
+		"NAME" : "IncidenciasOfertasFueraDeBaseGenOferta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 166,
+		"NAME" : "IncidenciasOfertasFueraDeBaseResAM",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 167,
+		"NAME" : "IncidenciasOfertasFueraDeBaseResolver",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 168,
+		"NAME" : "Login",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 169,
+		"NAME" : "Mantenimiento",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 170,
+		"NAME" : "MantenimientoEmpresas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 171,
+		"NAME" : "MantenimientoEmpresasEmpresas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 173,
+		"NAME" : "MantenimientoEmpresasEmpresasAutonomo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 174,
+		"NAME" : "MantenimientoEmpresasEmpresasBasesDeTransporte",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 175,
+		"NAME" : "MantenimientoEmpresasEmpresasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 176,
+		"NAME" : "MantenimientoEmpresasEmpresasContactos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 177,
+		"NAME" : "MantenimientoEmpresasEmpresasDatosBancarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 178,
+		"NAME" : "MantenimientoEmpresasEmpresasDatosEmpresa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 179,
+		"NAME" : "MantenimientoEmpresasEmpresasDireccionEmpresa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 180,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarAutonomo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 181,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarBasesDeTransporte",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 182,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarContactos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 183,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarDatosBancarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 184,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarDatosEmpresa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 185,
+		"NAME" : "MantenimientoEmpresasEmpresasEditarDireccionEmpresa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 186,
+		"NAME" : "MantenimientoEmpresasNegocios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 187,
+		"NAME" : "MantenimientoEmpresasNegociosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 188,
+		"NAME" : "MantenimientoEmpresasNegociosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 189,
+		"NAME" : "MantenimientoEmpresasNegociosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 190,
+		"NAME" : "MantenimientoFacturacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 191,
+		"NAME" : "MantenimientoFacturacionCentrosDeCoste",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 192,
+		"NAME" : "MantenimientoFacturacionCentrosDeCosteAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 193,
+		"NAME" : "MantenimientoFacturacionCentrosDeCosteBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 194,
+		"NAME" : "MantenimientoFacturacionCentrosDeCosteEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 195,
+		"NAME" : "MantenimientoFacturacionConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 196,
+		"NAME" : "MantenimientoFacturacionConceptosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 197,
+		"NAME" : "MantenimientoFacturacionConceptosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 198,
+		"NAME" : "MantenimientoFacturacionConceptosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 199,
+		"NAME" : "MantenimientoFacturacionDivisas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 200,
+		"NAME" : "MantenimientoFacturacionDivisasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 201,
+		"NAME" : "MantenimientoFacturacionDivisasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 202,
+		"NAME" : "MantenimientoFacturacionDivisasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 203,
+		"NAME" : "MantenimientoFacturacionEntidadesBancarias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 204,
+		"NAME" : "MantenimientoFacturacionEntidadesBancariasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 205,
+		"NAME" : "MantenimientoFacturacionEntidadesBancariasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 206,
+		"NAME" : "MantenimientoFacturacionEntidadesBancariasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 207,
+		"NAME" : "MantenimientoFacturacionFormasDePago",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 208,
+		"NAME" : "MantenimientoFacturacionFormasDePagoAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 209,
+		"NAME" : "MantenimientoFacturacionFormasDePagoBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 210,
+		"NAME" : "MantenimientoFacturacionFormasDePagoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 211,
+		"NAME" : "MantenimientoFacturacionTiposDeIva",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 212,
+		"NAME" : "MantenimientoFacturacionTiposDeIvaAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 213,
+		"NAME" : "MantenimientoFacturacionTiposDeIvaBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 214,
+		"NAME" : "MantenimientoFacturacionTiposDeIvaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 215,
+		"NAME" : "MantenimientoFacturacionTiposDePago",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 216,
+		"NAME" : "MantenimientoFacturacionTiposDePagoAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 217,
+		"NAME" : "MantenimientoFacturacionTiposDePagoBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 218,
+		"NAME" : "MantenimientoFacturacionTiposDePagoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 219,
+		"NAME" : "MantenimientoFacturacionTiposDeTarifa",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 220,
+		"NAME" : "MantenimientoFacturacionUnidadesFacturacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 221,
+		"NAME" : "MantenimientoFacturacionUnidadesFacturacionAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 222,
+		"NAME" : "MantenimientoFacturacionUnidadesFacturacionBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 223,
+		"NAME" : "MantenimientoFacturacionUnidadesFacturacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 224,
+		"NAME" : "MantenimientoFacturacionUnidadesReparto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 225,
+		"NAME" : "MantenimientoFacturacionUnidadesRepartoAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 226,
+		"NAME" : "MantenimientoFacturacionUnidadesRepartoBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 227,
+		"NAME" : "MantenimientoFacturacionUnidadesRepartoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 228,
+		"NAME" : "MantenimientoFlota",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 229,
+		"NAME" : "MantenimientoFlotaCondicionantesTecnicos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 230,
+		"NAME" : "MantenimientoFlotaCondicionantesTecnicosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 231,
+		"NAME" : "MantenimientoFlotaCondicionantesTecnicosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 232,
+		"NAME" : "MantenimientoFlotaCondicionantesTecnicosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 233,
+		"NAME" : "MantenimientoFlotaConductores",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 234,
+		"NAME" : "MantenimientoFlotaConductoresAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 235,
+		"NAME" : "MantenimientoFlotaConductoresBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 236,
+		"NAME" : "MantenimientoFlotaConductoresEditarMovil",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 237,
+		"NAME" : "MantenimientoFlotaConductoresGeneralEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 238,
+		"NAME" : "MantenimientoFlotaConductoresEditarTractorPorDefecto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 239,
+		"NAME" : "MantenimientoFlotaConductoresVerFoto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 240,
+		"NAME" : "MantenimientoFlotaPerfilesDeCondicionantesTecnicos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 241,
+		"NAME" : "MantenimientoFlotaPerfilesDeCondicionantesTecnicosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 242,
+		"NAME" : "MantenimientoFlotaPerfilesDeCondicionantesTecnicosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 243,
+		"NAME" : "MantenimientoFlotaPerfilesDeCondicionantesTecnicosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 244,
+		"NAME" : "MantenimientoFlotaSateliteDeTractorasBase",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 245,
+		"NAME" : "MantenimientoFlotaSateliteDeTractorasBaseComentario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 246,
+		"NAME" : "MantenimientoFlotaSateliteDeTractorasBaseEditarEstado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 247,
+		"NAME" : "MantenimientoFlotaTractoras",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 248,
+		"NAME" : "MantenimientoFlotaTractorasAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 249,
+		"NAME" : "MantenimientoFlotaTractorasBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 250,
+		"NAME" : "MantenimientoFlotaTractorasGeneralEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 251,
+		"NAME" : "MantenimientoFlotaTractorasVerfoto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 252,
+		"NAME" : "MantenimientoFlotaRemolquesAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 253,
+		"NAME" : "MantenimientoFlotaRemolquesBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 254,
+		"NAME" : "MantenimientoFlotaRemolquesEditarCabezaPorDefecto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 255,
+		"NAME" : "MantenimientoFlotaRemolquesGeneralEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 256,
+		"NAME" : "MantenimientoFlotaRemolquesVerfoto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 257,
+		"NAME" : "MantenimientoGeneral",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 258,
+		"NAME" : "MantenimientoGeneralCalendarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 259,
+		"NAME" : "MantenimientoGeneralCalendariosAceptar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 814,
+		"NAME" : "MantenimientoFlotaAverias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 815,
+		"NAME" : "MantenimientoFlotaTipoContratoMantenimiento",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 822,
+		"NAME" : "FlujoPatronesNviajesCopiar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 823,
+		"NAME" : "AnalisisListadoCentrosCoste",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 915,
+		"NAME" : "SeguridadAccionCodigoArranque",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 916,
+		"NAME" : "SeguridadAccionForzarSalidas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 924,
+		"NAME" : "ParkingVirtualAcceso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 925,
+		"NAME" : "ParkingVirtualRemolqueAsignar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 926,
+		"NAME" : "ParkingVirtualRemolqueBaja",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 927,
+		"NAME" : "ParkingVirtualRemolqueBloqueado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 928,
+		"NAME" : "ParkingVirtualRemolqueCambioEstado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 929,
+		"NAME" : "ParkingVirtualRemolqueDescarga",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 930,
+		"NAME" : "ParkingVirtualRemolqueDescargaAsignar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 931,
+		"NAME" : "ParkingVirtualRemolqueDisponibleVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 932,
+		"NAME" : "ParkingVirtualRemolqueGestorFlota",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 933,
+		"NAME" : "ParkingVirtualRemolqueLiberar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 934,
+		"NAME" : "ParkingVirtualRemolqueNoDisponibleVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 935,
+		"NAME" : "ParkingVirtualRemolqueOperativoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 936,
+		"NAME" : "ParkingVirtualRemolquePrecarga",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 937,
+		"NAME" : "ParkingVirtualRemolquePrecargaAsignar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 938,
+		"NAME" : "ParkingVirtualRemolqueTaller",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 939,
+		"NAME" : "ParkingVirtualRemolqueTallerAsignar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 940,
+		"NAME" : "ParkingVirtualRemolqueTallerGPS",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 941,
+		"NAME" : "ParkingVirtualRemolqueTallerGPSAsignar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 942,
+		"NAME" : "NotificacionesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 943,
+		"NAME" : "MantenimientoExclusivosGestoresBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 944,
+		"NAME" : "ParkingVirtualRemolqueBloqueadoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 945,
+		"NAME" : "ParkingVirtualRemolquePrecargaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 946,
+		"NAME" : "ParkingVirtualRemolqueDescargaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 947,
+		"NAME" : "ParkingVirtualRemolqueTallerVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 948,
+		"NAME" : "ParkingVirtualRemolqueTallerGPSVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 949,
+		"NAME" : "ParkingVirtualRemolqueBajaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 950,
+		"NAME" : "ParkingVirtualRemolquePrecargadoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 951,
+		"NAME" : "ParkingVirtualRemolqueDescargadoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 952,
+		"NAME" : "ParkingVirtualRemolqueVacacionesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 953,
+		"NAME" : "ParkingVirtualRemolqueEnfermedadVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 954,
+		"NAME" : "ParkingVirtualRemolqueTallerFinalizadoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 955,
+		"NAME" : "ParkingVirtualRemolqueTallerGPSFinalizadoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 956,
+		"NAME" : "ParkingVirtualRemolqueLibreVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 957,
+		"NAME" : "ParkingVirtualRemolqueEnViajeVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 821,
+		"NAME" : "MantenimientoFlotaRemolquesBasesTransporteEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 839,
+		"NAME" : "MantenimientoFacturacionTarifasKg",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 840,
+		"NAME" : "MantenimientoFacturacionTarifasKgAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 841,
+		"NAME" : "MantenimientoFacturacionTarifasKgEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 842,
+		"NAME" : "MantenimientoFacturacionTarifasKgBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 824,
+		"NAME" : "MantenimientoFlotaConductoresDispositivos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 825,
+		"NAME" : "SeguridadMaestrosAccionesIntervencion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 826,
+		"NAME" : "SeguridadMaestrosAccionesIntervencionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 827,
+		"NAME" : "SeguridadMaestrosProveedorGPS",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 828,
+		"NAME" : "SeguridadMaestrosProveedorGPSEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 829,
+		"NAME" : "SeguridadMaestrosEntradaSalida",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 830,
+		"NAME" : "SeguridadMaestrosEntradaSalidaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 831,
+		"NAME" : "SeguridadMaestrosModeloGPS",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 832,
+		"NAME" : "SeguridadMaestrosModeloGPSEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 833,
+		"NAME" : "SeguridadControlIntervenciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 834,
+		"NAME" : "SeguridadControlIntervencionesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 835,
+		"NAME" : "SeguridadMaestrosProveedorSIM",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 836,
+		"NAME" : "SeguridadMaestrosProveedorSIMEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 837,
+		"NAME" : "SeguridadMaestrosTipoInstalacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 838,
+		"NAME" : "SeguridadMaestrosTipoInstalacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 843,
+		"NAME" : "SeguridadFlotaDispositivo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 844,
+		"NAME" : "SeguridadFlotaDispositivoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 845,
+		"NAME" : "SeguridadFlotaDispositivoInstalar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 846,
+		"NAME" : "SeguridadFlotaDispositivoDesinstalar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 847,
+		"NAME" : "SeguridadFlotaDispositivoSustituir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 848,
+		"NAME" : "SeguridadFlotaDispositivoHistoricoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 849,
+		"NAME" : "SeguridadAccionPosicion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 850,
+		"NAME" : "SeguridadAccionBloqueoMotor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 851,
+		"NAME" : "SeguridadAccionBotonRemolque",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 852,
+		"NAME" : "SeguridadAccionReset",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 853,
+		"NAME" : "SeguridadAccionModoSeguro",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 854,
+		"NAME" : "SeguridadAccionEscucha",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 855,
+		"NAME" : "SeguridadAccionQuintaRueda",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 856,
+		"NAME" : "SeguridadAccionAlarmaCinematica",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 857,
+		"NAME" : "SeguridadAccionAlarmaArea",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 858,
+		"NAME" : "SeguridadAccionAlarmaMovimiento",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 859,
+		"NAME" : "SeguridadAccionPedirEstado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 860,
+		"NAME" : "SeguridadAccionHistComunicaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 861,
+		"NAME" : "SeguridadAccionHistPosiciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 862,
+		"NAME" : "SeguridadAccionConfiguracion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 863,
+		"NAME" : "SeguridadAccionSeguimiento",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 864,
+		"NAME" : "SeguridadAccionMensajeLibre",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 865,
+		"NAME" : "SeguridadAccionIncidenciaGPS",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 872,
+		"NAME" : "SeguridadAccionActualizacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 873,
+		"NAME" : "SeguridadAccionPedirInfTarjeta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 874,
+		"NAME" : "SeguridadAccionAlarmaPeriferica",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 875,
+		"NAME" : "SeguridadAccionCierresTecnove",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 876,
+		"NAME" : "SeguridadAccionBloqueoEjes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 866,
+		"NAME" : "SeguridadAlarmas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 867,
+		"NAME" : "SeguridadAlarmasDispositivo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 868,
+		"NAME" : "SeguridadAlarmasDispositivoGestionar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 869,
+		"NAME" : "SeguridadAlarmasDispositivoCerrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 870,
+		"NAME" : "SeguridadAlarmasDispositivoCerrarSinComentario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 871,
+		"NAME" : "AnalisisListadoHistoricoCambiosFlota",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 877,
+		"NAME" : "GeneralSeguridadMapaVerSatelite",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 878,
+		"NAME" : "GeneralSeguridadMapaVerDatagis",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 879,
+		"NAME" : "GeneralSeguridadMapaVerCobertura",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 880,
+		"NAME" : "GeneralSeguridadMapaVerCentros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 881,
+		"NAME" : "GeneralSeguridadMapaVerPois",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 882,
+		"NAME" : "GeneralSeguridadMapaEditPois",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 913,
+		"NAME" : "SeguridadAccionConfiguracionInicial",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 914,
+		"NAME" : "GeneralDatosViajeIncidenciaKpiBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 917,
+		"NAME" : "MantenimientoFacturacionCentrosDeCosteWebFidelizacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 958,
+		"NAME" : "AnalisisViajesVerViajesEditarKilometrosVaciosLibre",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 959,
+		"NAME" : "MantenimientoFlotaConductoresEnviarSms",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 960,
+		"NAME" : "AnalisisHistoricoSmsEliminar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 961,
+		"NAME" : "MantenimientoGeneralPruebaVelocidad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 792,
+		"NAME" : "GeneralFechasFechaSalidaRealVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 793,
+		"NAME" : "AnalisisGeneralFechaSalidaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 794,
+		"NAME" : "MantenimientoGeneralCausasKmsVacio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 795,
+		"NAME" : "MantenimientoGeneralCausasKmsVacioAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 796,
+		"NAME" : "MantenimientoGeneralCausasKmsVacioEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 797,
+		"NAME" : "MantenimientoGeneralCausasKmsVacioBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 798,
+		"NAME" : "AnalisisListadoKilometrosVacio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 800,
+		"NAME" : "GeneralTarifaKilometrosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 801,
+		"NAME" : "MantenimientoFacturacionTiposTarifaDedicados",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 802,
+		"NAME" : "MantenimientoFacturacionTiposTarifaDedicadosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 803,
+		"NAME" : "MantenimientoFacturacionTiposTarifaDedicadosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 804,
+		"NAME" : "MantenimientoFacturacionTiposTarifaDedicadosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 805,
+		"NAME" : "MantenimientoViajesPorDefectoImportacionTarifasDedicados",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 799,
+		"NAME" : "AnalisisViajesGestionAlbaranes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 806,
+		"NAME" : "GeneralSeguridadTrayectosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 807,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesTarifaGestionManual",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 808,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesTarifaFilialManual",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 809,
+		"NAME" : "GeneralConceptoAjusteManualVerEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 883,
+		"NAME" : "SeguridadControlViajes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 884,
+		"NAME" : "SeguridadControlOperaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 886,
+		"NAME" : "GeneralSeguridadHistoricoComunicaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 885,
+		"NAME" : "SeguridadControlDispositivos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 887,
+		"NAME" : "SeguridadFlotaSmartphone",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 888,
+		"NAME" : "MantenimientoGeneralProvinciasNivelSeguridad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 889,
+		"NAME" : "SeguridadAccionModoTest",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 890,
+		"NAME" : "GeneralSeguridadDatosParadasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 891,
+		"NAME" : "SeguridadAlarmasGeoFencing",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 892,
+		"NAME" : "SeguridadAlarmasGeoFencingGestionar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 893,
+		"NAME" : "SeguridadAlarmasGeoFencingCerrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 894,
+		"NAME" : "SeguridadAlarmasHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 895,
+		"NAME" : "SeguridadControlAreasCinematicas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 896,
+		"NAME" : "SeguridadControlPernoctas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 897,
+		"NAME" : "SeguridadControlConvoyes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 898,
+		"NAME" : "SeguridadControlVigilancias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 899,
+		"NAME" : "GeneralSeguridadDatosParadasModificarFlota",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 900,
+		"NAME" : "SeguridadControlGeograficas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 901,
+		"NAME" : "MantenimientoFlotaConductoresDispositivosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 902,
+		"NAME" : "SeguridadAccionEstadoES",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 907,
+		"NAME" : "SeguridadAccionTransponder",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 908,
+		"NAME" : "GeneralConductorTelefonoSmartphoneVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 923,
+		"NAME" : "AnalisisListadoTramos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 810,
+		"NAME" : "AnalisisViajesVerViajesImprimirBarcode",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 811,
+		"NAME" : "EscanearLogin",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 812,
+		"NAME" : "EscanearEscanear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 813,
+		"NAME" : "EscanearVerTodosLotes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 912,
+		"NAME" : "MantenimientoFlotaConductoresBasesTransporteEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 817,
+		"NAME" : "MantenimientoFacturacionTarifaGestionCarga",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 818,
+		"NAME" : "AnalisisNviajesNviajesNuevaFlotaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 819,
+		"NAME" : "AnalisisViajesVerViajesNuevaFlotaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 820,
+		"NAME" : "MantenimientoFlotaTractorasBasesTransporteEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 816,
+		"NAME" : "GeneralIncidenciasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 909,
+		"NAME" : "SeguridadInformesTiemposgestion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 910,
+		"NAME" : "AccesoRedExterna",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 911,
+		"NAME" : "AccesoRedLogista",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 904,
+		"NAME" : "AnalisisListadoViajesVerKilometrosVaciosCalculados",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 905,
+		"NAME" : "AnalisisListadoViajesVerKilometrosVaciosUsuario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 906,
+		"NAME" : "AnalisisListadoViajesVerDesvicacionKilometrosUsuario",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 903,
+		"NAME" : "GeneralIdentificadorObjetoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 918,
+		"NAME" : "AnalisisViajesVerViajesVerTramos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 919,
+		"NAME" : "AnalisisViajesVerViajesVerTramosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 920,
+		"NAME" : "AnalisisViajesVerViajesVerTramosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 921,
+		"NAME" : "AnalisisViajesVerViajesVerTramosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 922,
+		"NAME" : "GeneralConceptosEditarConPermiso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 970,
+		"NAME" : "FacturacionFacturasModificarIva",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 971,
+		"NAME" : "MantenimientoFlotaRemolquesEditarNumeroLlave",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 987,
+		"NAME" : "GeneralAlertasGeograficasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 990,
+		"NAME" : "GeneralDepartamentoSeguridadEmbarcada",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 991,
+		"NAME" : "GeneralDepartamentoAreaVehiculos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 994,
+		"NAME" : "TipoIncidenciaVehiculoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 998,
+		"NAME" : "IncidenciaVehiculoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 999,
+		"NAME" : "IncidenciaVehiculoEstado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1000,
+		"NAME" : "PlanVehiculoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1002,
+		"NAME" : "PlanVehiculoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1003,
+		"NAME" : "PlanVehiculoEstado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1004,
+		"NAME" : "OrdenTrabajoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1005,
+		"NAME" : "OrdenTrabajoCrear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1007,
+		"NAME" : "OrdenTrabajoAsociar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1008,
+		"NAME" : "OrdenTrabajoAnular",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1011,
+		"NAME" : "AnalisisViajesGestionAlbaranesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1012,
+		"NAME" : "SeguridadMaestrosZonasExclusion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1013,
+		"NAME" : "SeguridadMaestrosPuntosDeInteres",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1021,
+		"NAME" : "SeguridadAlarmasVideos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1027,
+		"NAME" : "AnalisisTemperaturas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1029,
+		"NAME" : "GestionFlotaPanelControl",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1030,
+		"NAME" : "AsignacionPanelControl",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1033,
+		"NAME" : "GestionFlotaTractoraCambiar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1062,
+		"NAME" : "GeneralSeguridadMapaVerCodigosPostales",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1066,
+		"NAME" : "GeneralFechasSeguimientoAutomatico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1067,
+		"NAME" : "GeneralViajesGestoresVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1114,
+		"NAME" : "GeneralReenvioPosicionesVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1110,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesEditarCodigoPegaso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1111,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesEditarPerfil",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1090,
+		"NAME" : "MantenimientoFlotaConductoresAdministrativos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1116,
+		"NAME" : "MantenimientoFlotaConductoresCincoEstrellasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1121,
+		"NAME" : "MantenimientoFlotaConductoresAdministrativosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1129,
+		"NAME" : "InformeRentabilidadFlotas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 962,
+		"NAME" : "ParkingVirtualRemolqueEditarFecha",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 963,
+		"NAME" : "SeguridadProgramarPruebas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 964,
+		"NAME" : "SeguridadInformesPruebas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 967,
+		"NAME" : "MantenimientoRedCentrosAutorizarDesenganche",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 965,
+		"NAME" : "SeguridadVerDispositivoEstado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 966,
+		"NAME" : "SeguridadVerDispositivoES",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 968,
+		"NAME" : "GeneralRemolqueTemperatura",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 969,
+		"NAME" : "GeneralConductorTacografo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 972,
+		"NAME" : "SeguridadHabilitarMotorArranque",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 973,
+		"NAME" : "SeguridadBorrarClaveConductor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 974,
+		"NAME" : "SeguridadFlotaSIMCards",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 975,
+		"NAME" : "MantenimientoFlotaMaterialVariado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 983,
+		"NAME" : "SeguridadMaestrosTiposMaterial",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 984,
+		"NAME" : "SeguridadMaestrosTiposTareas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 988,
+		"NAME" : "GeneralAlertasTemperaturaConsulta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1010,
+		"NAME" : "SeguridadIgnorarAlarmasCentros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1015,
+		"NAME" : "MantenimientoFlotaTractorasEditarDatosGrabadora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1016,
+		"NAME" : "MantenimientoEmpresasEmpresasAgregarClienteEsporadico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1017,
+		"NAME" : "MantenimientoEmpresasEmpresasAgregarClienteHomologado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1019,
+		"NAME" : "MantenimientoEmpresasEmpresasAgregarProveedorHomologado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1036,
+		"NAME" : "GestionFlotaDescansosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1044,
+		"NAME" : "MantenimientoRedCodigosPostales",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1048,
+		"NAME" : "ConfirmarFechasArmar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1051,
+		"NAME" : "GeneralFechasFechaLlegadaPrevistaGestorVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1052,
+		"NAME" : "GeneralFechasFechaLlegadaPrevistaGestorEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1053,
+		"NAME" : "GeneralFechasFechaLlegadaPrevistaSistemaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1054,
+		"NAME" : "GeneralFechasFechaLlegadaRealVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1055,
+		"NAME" : "GeneralFechasFechaLlegadaRealEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1057,
+		"NAME" : "GeneralFechasFechaFinOperacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1058,
+		"NAME" : "GeneralFechasFechaSalidaRealEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1065,
+		"NAME" : "GeneralSeguridadUltimasPosicionesDistancia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1068,
+		"NAME" : "GeneralCalculoDistanciaOptimizacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1070,
+		"NAME" : "SeguridadFlotaDispositivoInsertarSim",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1101,
+		"NAME" : "GeneralCondicionesAvisoValidez",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1102,
+		"NAME" : "GeneralCondicionesAvisoEntradasSalidas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1104,
+		"NAME" : "GeneralCondicionesAvisoModosCras",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1119,
+		"NAME" : "AnalisisViajesVerViajesConceptosSinLimiteTemporalAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1109,
+		"NAME" : "MantenimientoRedZonasEconomicasAgregarEditarEconomicas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1123,
+		"NAME" : "MantenimientoFlotaTractorasFoto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1125,
+		"NAME" : "MantenimientoFlotaTractorasFotoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1128,
+		"NAME" : "GestionFlotaActivarDesactivar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1130,
+		"NAME" : "GeneralTrabajosDiferidos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1134,
+		"NAME" : "GeneralHistoricoVerDatosBorrados",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1135,
+		"NAME" : "MantenimientoRedCentrosEditarServicios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1136,
+		"NAME" : "MantenimientoRedCentrosEditarDocumentos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1151,
+		"NAME" : "GeneralRemolqueBateria",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1161,
+		"NAME" : "GeneralIdiomasTraducirRumano",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1169,
+		"NAME" : "AnalisisGeneralParadasIntercambioPalletsVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1170,
+		"NAME" : "AnalisisGeneralParadasIntercambioPalletsEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1172,
+		"NAME" : "AnalisisGeneralParadasReferenciaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1173,
+		"NAME" : "GeneralFechasFieldeasVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1174,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesEditarCambioParadas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1175,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesEditarEscaneoObligatorio",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1176,
+		"NAME" : "PedidosEdicionMultipleConceptos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1177,
+		"NAME" : "GeneralServicioFieldeasOfrecer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1178,
+		"NAME" : "GeneralServicioFieldeasAnularr",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1179,
+		"NAME" : "GeneralServicioFieldeasHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1180,
+		"NAME" : "GeneralServicioFieldeasEnviarMensaje",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1183,
+		"NAME" : "GeneralCalculoDistanciaHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1186,
+		"NAME" : "AnalisisPedidosConceptosAnulacionAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1187,
+		"NAME" : "GeneralViajesFacturadosConceptosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1189,
+		"NAME" : "GeneralChecklistsVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1190,
+		"NAME" : "MantenimientoFlotaTractorasSeguridadEditarAppFieldeas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 982,
+		"NAME" : "SeguridadMaestrosServices",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 989,
+		"NAME" : "GeneralAlertasTemperaturaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 995,
+		"NAME" : "TipoIncidenciaVehiculoDesactivar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 997,
+		"NAME" : "IncidenciaVehiculoCrear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1001,
+		"NAME" : "PlanVehiculoCrear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1006,
+		"NAME" : "OrdenTrabajoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1009,
+		"NAME" : "GeneralServicioVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1014,
+		"NAME" : "MantenimientoFlotaTractorasVerDatosGrabadora",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1026,
+		"NAME" : "FacturacionFacturasDatosHuellaCarbonoModificar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1028,
+		"NAME" : "SeguridadControlCombinacionesDeFlotaAdministrador",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1032,
+		"NAME" : "GestionFlotaCrear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1040,
+		"NAME" : "AnalisisGeneralSemaforoVerFechaPendiente",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1045,
+		"NAME" : "MantenimientoRedCodigosPostalesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1061,
+		"NAME" : "ConfirmarFechasDesarmarVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1064,
+		"NAME" : "GeneralFechasPrecargaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1092,
+		"NAME" : "SeguridadAccionLuzJamming",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1095,
+		"NAME" : "AsignacionPreasignacionEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1096,
+		"NAME" : "GeneralCalculoKilometrosAutomaticosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1100,
+		"NAME" : "GeneralCondicionesAvisoGeograficas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1113,
+		"NAME" : "GeneralConductorTelefonoEmpresaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1122,
+		"NAME" : "MantenimientoFlotaRemolquesFoto",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1124,
+		"NAME" : "MantenimientoFlotaRemolquesFotoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1133,
+		"NAME" : "GeneralCalculoDistanciaParametros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1131,
+		"NAME" : "GeneralAlertasTemperaturaExportarPdf",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1132,
+		"NAME" : "GeneralHistoricoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1150,
+		"NAME" : "SeguridadVerDispositivoEstadoDatosFisicos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1137,
+		"NAME" : "MantenimientoRedCentrosEditarSeguridad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1138,
+		"NAME" : "MantenimientoRedCentrosOtros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1139,
+		"NAME" : "MantenimientoRedCentrosSeguridad",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1140,
+		"NAME" : "MantenimientoRedCentrosServicios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1141,
+		"NAME" : "MantenimientoRedCentrosEditarOtros",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1142,
+		"NAME" : "MantenimientoRedCentrosTipos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1143,
+		"NAME" : "MantenimientoRedCentrosTiposEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1144,
+		"NAME" : "MantenimientoRedCentrosTiposAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1145,
+		"NAME" : "MantenimientoRedCentrosTiposBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1147,
+		"NAME" : "MantenimientoRedCentrosInformacionConductor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1148,
+		"NAME" : "MantenimientoRedCentrosEditarInformacionConductor",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1149,
+		"NAME" : "MantenimientoRedCentrosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1146,
+		"NAME" : "MantenimientoRequisitos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1152,
+		"NAME" : "MantenimientoViajesPorDefectoKmsCargadosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1153,
+		"NAME" : "MantenimientoViajesPorDefectoKmsVaciosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1154,
+		"NAME" : "MantenimientoViajesPorDefectoKmsCargadosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1155,
+		"NAME" : "MantenimientoViajesPorDefectoKmsVaciosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1156,
+		"NAME" : "AccesoWebService",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1157,
+		"NAME" : "AnalisisViajesVerViajesConceptosFueraPlazoAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1158,
+		"NAME" : "MantenimientoViajesPorDefectoDocumentosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1159,
+		"NAME" : "AnalisisViajesVerViajesConceptosHastaFinMesAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1160,
+		"NAME" : "GeneralSeguridadAlertasAvisoAcustico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1162,
+		"NAME" : "ViajesPorDefectoKmsCargadosPerfilEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1163,
+		"NAME" : "ViajesPorDefectoKmsVaciosPerfilEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1164,
+		"NAME" : "ViajesKmsCargadosPerfilEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1165,
+		"NAME" : "ViajesKmsVaciosPerfilEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1171,
+		"NAME" : "AnalisisGeneralParadasReferenciaVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1182,
+		"NAME" : "GeneralServicioFieldeasReabrir",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 976,
+		"NAME" : "MantenimientoFlotaControlMaterial",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 977,
+		"NAME" : "SeguridadControlPreincidencias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 978,
+		"NAME" : "SeguridadControlIncidenciaVehiculos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 979,
+		"NAME" : "SeguridadControlPlanes",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 980,
+		"NAME" : "SeguridadControlOrdenesTrabajo",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 981,
+		"NAME" : "SeguridadAlarmasGeoperativas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 986,
+		"NAME" : "GeneralAlertasGeograficasConsulta",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1037,
+		"NAME" : "GestionFlotaDescansosCrear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1038,
+		"NAME" : "GestionFlotaDescansosBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1041,
+		"NAME" : "GeneralCalculoDistancia",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1046,
+		"NAME" : "SeguridadAccionCCTV",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1049,
+		"NAME" : "ConfirmarFechasDesarmar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1063,
+		"NAME" : "GeneralServicioAutomatico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1091,
+		"NAME" : "SeguridadAccionCorteMechero",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1093,
+		"NAME" : "GeneralPosicionesAnalisis",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1098,
+		"NAME" : "GeneralCondicionesAvisoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1106,
+		"NAME" : "GeneralCondicionesAvisoAcciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1108,
+		"NAME" : "GeneralCondicionesAvisoEditarVehiculos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1115,
+		"NAME" : "GeneralReenvioPosicionesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1112,
+		"NAME" : "GeneralConductorTelefonoPersonalVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1117,
+		"NAME" : "MantenimientoFlotaConductoresCincoEstrellasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1126,
+		"NAME" : "GeneralConductorTelefonoPersonalEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1127,
+		"NAME" : "GeneralConductorTelefonoEmpresaEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1120,
+		"NAME" : "MantenimientoFlotaConductoresIncidencias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1184,
+		"NAME" : "GeneralPalletsMovimientosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 985,
+		"NAME" : "SeguridadMaestrosTiposIncidencias",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 992,
+		"NAME" : "TipoIncidenciaVehiculoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 993,
+		"NAME" : "TipoIncidenciaVehiculoCrear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1023,
+		"NAME" : "SeguridadAlarmasVideosListarGrabaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1024,
+		"NAME" : "MantenimientoFacturacionHuellaCarbono",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1025,
+		"NAME" : "MantenimientoFacturacionHuellaCarbonoParametroEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1034,
+		"NAME" : "SeguridadAccionBloqueoCandado",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1035,
+		"NAME" : "GestionFlotaDescansosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1039,
+		"NAME" : "SeguridadAccionSirena",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1050,
+		"NAME" : "GeneralFechasFechaOperacionVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1059,
+		"NAME" : "GeneralFechasFechaClienteVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1060,
+		"NAME" : "ConfirmarFechasArmarVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1072,
+		"NAME" : "MantenimientoFlotaFormacionConductoresEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1094,
+		"NAME" : "AsignacionPreasignacionVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1105,
+		"NAME" : "GeneralCondicionesAvisoNotificaciones",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1166,
+		"NAME" : "ViajesIntroduccionSinRestriccionTemporal",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1181,
+		"NAME" : "GeneralServicioFieldeasActualizar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 996,
+		"NAME" : "IncidenciaVehiculoVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1020,
+		"NAME" : "SeguridadControlCombinacionesDeFlota",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1018,
+		"NAME" : "MantenimientoEmpresasEmpresasAgregarProveedorEsporadico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1022,
+		"NAME" : "SeguridadAlarmasVideosGuardar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1031,
+		"NAME" : "SeguridadVerDispositivoEstadoRadius",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1042,
+		"NAME" : "GeneralRemolquePalletsVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1043,
+		"NAME" : "GeneralRemolquePalletsEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1047,
+		"NAME" : "SeguridadAccionLedIntermitente",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1056,
+		"NAME" : "GeneralFechasFechaFinOperacionVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1069,
+		"NAME" : "GeneralDepartamentoSistemas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1071,
+		"NAME" : "MantenimientoFlotaFormacionConductores",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1097,
+		"NAME" : "GeneralCondicionesAviso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1099,
+		"NAME" : "GeneralCondicionesAvisoPrincipal",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1103,
+		"NAME" : "GeneralCondicionesAvisoVehiculos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1107,
+		"NAME" : "GeneralCondicionesAvisoEventos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1118,
+		"NAME" : "AnalisisViajesVerViajesEditarUnidadesEditarViajeReal",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1167,
+		"NAME" : "PedidosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1168,
+		"NAME" : "ViajesKmsCargadosComoVaciosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1185,
+		"NAME" : "AnalisisPedidosConceptosRectificativosAgregar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1188,
+		"NAME" : "FacturacionFacturasDatosFacturaModificarRectificacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1191,
+		"NAME" : "PedidosRequisitosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1192,
+		"NAME" : "PedidosRequisitosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1193,
+		"NAME" : "PedidosImportacionViajesFNMT",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1194,
+		"NAME" : "PedidosImportacionViajesIntegra2",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1195,
+		"NAME" : "PedidosImportacionViajesAmazon",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1206,
+		"NAME" : "SeguridadAccionDesbloqueoFrenos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1208,
+		"NAME" : "AsignacionDisponibilidadesPublicar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1209,
+		"NAME" : "AsignacionPizarraVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1219,
+		"NAME" : "TenderClientesCrear",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 738,
+		"NAME" : "TenderAcceso",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1202,
+		"NAME" : "GeneralDestinosBaseVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1213,
+		"NAME" : "AsignacionEvaluarEscenarios",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 745,
+		"NAME" : "TenderOrigenDatosHistoricoFilial",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1217,
+		"NAME" : "MantenimientoViajesPorDefectoHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1222,
+		"NAME" : "AnalisisViajesVerViajesEditarClienteEsporadico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1223,
+		"NAME" : "AnalisisViajesVerViajesEditarProveedorEsporadico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1224,
+		"NAME" : "AnalisisViajesVerViajesVerClienteEsporadico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1225,
+		"NAME" : "AnalisisViajesVerViajesVerProveedorEsporadico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1196,
+		"NAME" : "MantenimientoRequisitosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1197,
+		"NAME" : "MantenimientoRequisitosHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1198,
+		"NAME" : "ViajesPorDefectoRequisitosVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1199,
+		"NAME" : "ViajesPorDefectoRequisitosEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1205,
+		"NAME" : "SeguridadAccionBloqueoFrenos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1214,
+		"NAME" : "TenderFiltroDatosHistorico",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1226,
+		"NAME" : "AnalisisNviajesNviajesActiveOrder",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1220,
+		"NAME" : "TenderClientesEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1221,
+		"NAME" : "TenderClientesDesactivar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1218,
+		"NAME" : "AsignacionTramoEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1227,
+		"NAME" : "PedidosEdicionParadasFijas",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 739,
+		"NAME" : "TenderImportacion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 740,
+		"NAME" : "TenderGestion",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 741,
+		"NAME" : "TenderBorrar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1216,
+		"NAME" : "GeneralConsultaTemperaturaCliente",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1200,
+		"NAME" : "PedidosTransporeonVer",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1201,
+		"NAME" : "SeguridadAccionBloqueoBarras",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1203,
+		"NAME" : "GeneralDestinosBaseEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1204,
+		"NAME" : "GestionFlotaREDPanelControl",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1207,
+		"NAME" : "AsignacionKilometrosCalcular",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1210,
+		"NAME" : "AsignacionPizarraMarcarPrecarga",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1211,
+		"NAME" : "TenderVisualizarPreciosLinea",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1212,
+		"NAME" : "AsignacionPreasignacionTramos",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 746,
+		"NAME" : "TenderLineasEditar",
+		"ACTIVE": 1
+	},
+	{
+		"ID" : 1215,
+		"NAME" : "PermisosIgnorarCreacionComentario",
+		"ACTIVE": 1
+	}
+]}
