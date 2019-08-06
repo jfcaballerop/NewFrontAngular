@@ -1,13 +1,6 @@
-<!-- <p>This is a more complete example with a service that simulates server calling:</p>
+<p> PERMISOS:</p>
 
-<ul>
-  <li>an observable async service to fetch a list of countries</li>
-  <li>sorting, filtering and pagination</li>
-  <li>simulated delay and loading indicator</li>
-  <li>debouncing of search requests</li>
-</ul>
-
-<form>
+<!-- <form>
   <div class="form-group form-inline">
       Full text search: <input class="form-control ml-2" type="text" name="searchTerm" [(ngModel)]="service.searchTerm"/>
       <span class="ml-3" *ngIf="service.loading$ | async">Loading...</span>
@@ -49,10 +42,16 @@
 
 </form> -->
 
-<h4>Permisos</h4>
+
+<form>
+  <div class="form-group form-inline">
+      Busqueda: <input class="form-control ml-2" type="text" [formControl]="filter"/>
+  </div>
+</form>
 <table class="table">
   <thead>
     <tr>
+      <th scope="col">#</th>
       <th scope="col">id</th>
       <th scope="col">Name</th>
       <th scope="col">Active</th>
@@ -60,10 +59,17 @@
   </thead>
   <tbody>
 
-    <tr *ngFor="let perm of permisos" [ngClass]="perm.active === 0 ? 'table-danger' : 'table-default'">
-      <th scope="row">{{perm.id}}</th>
-      <td>{{perm.name}}</td>
-      <td>{{perm.active}}</td>
+    <tr *ngFor="let perm of permisos | async; index as i" [ngClass]="perm.active === 0 ? 'table-danger' : 'table-default'" >
+      <th scope="row">{{ i + 1 }}</th>
+      <td>
+        <ngb-highlight [result]="perm.id" [term]="filter.value"></ngb-highlight>
+      </td>
+      <td>
+        <ngb-highlight [result]="perm.name" [term]="filter.value"></ngb-highlight>
+      </td>
+      <td>
+        <ngb-highlight [result]="perm.active" [term]="filter.value"></ngb-highlight>
+      </td>
     </tr>
   </tbody>
 </table>

@@ -1,8 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Bs4FormsModule } from './bs4-forms/bs4-forms.module';
 import { NgbdSortableHeader } from './sort/sortable.directive';
+
 
 
 
@@ -11,11 +13,13 @@ import { NgbdSortableHeader } from './sort/sortable.directive';
   imports: [
     CommonModule,
     Bs4FormsModule,
-    HttpClientModule
-  ],
+    HttpClientModule,
+    NgbModule
+    ],
   exports: [
     Bs4FormsModule,
-    NgbdSortableHeader
+    NgbdSortableHeader,
+    NgbModule
   ]
 })
 export class SharedModule { }
