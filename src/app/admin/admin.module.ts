@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { AdminRoutingModule } from './admin-routing.module';
 import { SecurityPermissionComponent } from './security-permission/security-permission.component';
 import { SecurityComponent } from './security/security.component';
+import { PermissionSortService } from './services/permission-sort.service';
 
 
 
@@ -18,6 +19,6 @@ import { SecurityComponent } from './security/security.component';
     CoreModule
   ],
   exports: [AdminRoutingModule],
-  providers: [PermissionService]
+  providers: [PermissionService, PermissionSortService]
 })
 export class AdminModule { }

@@ -1,63 +1,67 @@
 import { DecimalPipe } from '@angular/common';
-import { Component, OnInit, PipeTransform, ViewEncapsulation } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { Component, OnInit, QueryList, ViewChildren, ViewEncapsulation } from '@angular/core';
 import { Observable } from 'rxjs';
-import { map, startWith } from 'rxjs/operators';
 import { Permission } from 'src/app/models/permission';
-import { PermissionService } from 'src/app/services/permission.service';
-
-function search(_permisos$: Permission[], text: string, pipe: PipeTransform): Permission[] {
-  return _permisos$.filter(country => {
-    const term = text.toLowerCase();
-    return country.name.toLowerCase().includes(term);
-    // || pipe.transform(country.area).includes(term)
-    // || pipe.transform(country.population).includes(term);
-  });
-}
+import { NgbdSortableHeader, SortEvent } from 'src/app/shared/directives/sortable.directive';
+import { PermissionSortService } from '../services/permission-sort.service';
 
 @Component({
   selector: 'app-security-permission',
   templateUrl: './security-permission.component.html',
   styleUrls: ['./security-permission.component.css'],
-  providers: [PermissionService, DecimalPipe],
+  providers: [PermissionSortService, DecimalPipe],
   encapsulation: ViewEncapsulation.None
 })
 export class SecurityPermissionComponent implements OnInit {
-  permisos: Observable<Permission[]>;
-  filter = new FormControl('');
-  PERMISOS: Array<Permission>;
+  permisos$: Observable<Permission[]>;
+  total$: Observable<number>;
+  // filter = new FormControl('');
+  // PERMISOS: Array<Permission>;
+  // page = 1;
+  // pageSize = 10;
+  // collectionSize: number;
+  @ViewChildren(NgbdSortableHeader) headers: QueryList<NgbdSortableHeader>;
   
   constructor(
-    private permissionSvc: PermissionService,
-    pipe: DecimalPipe
+    public service: PermissionSortService
   ) {
-    this.permissionSvc.getAllPermissions().subscribe(
-      data => {
-        console.log(data);
-        if (data['permisos'] === undefined) {
-          alert('No existen permisos en la BD');
-        } else if (data['permisos'].length === 0) {
-          alert('No existen permisos');
-        } else {
-          this.PERMISOS = data['permisos'];
-          this.permisos = this.filter.valueChanges.pipe(
-            startWith(''),
-            map(text => search(this.PERMISOS, text, pipe))
-          );
-        }
-      },
-      error => {
-        console.log(error);
-        alert(error.message);
-      }
-    );
-    
-    
+    this.permisos$ = service.permisos$;
+    this.total$ = service.total$;
+
+    // this.permissionSvc.getAllPermissions().subscribe(
+    //   data => {
+    //     console.log(data);
+    //     if (data['permisos'] === undefined) {
+    //       alert('No existen permisos en la BD');
+    //     } else if (data['permisos'].length === 0) {
+    //       alert('No existen permisos');
+    //     } else {
+    //       this.PERMISOS = data['permisos'];
+    //       this.permisos = this.filter.valueChanges.pipe(
+    //         startWith(''),
+    //         map(text => search(this.PERMISOS, text, pipe))
+    //       );
+    //     }
+    //   },
+    //   error => {
+    //     console.log(error);
+    //     alert(error.message);
+    //   }
+    // );
   }
 
   ngOnInit() {
-    
   }
+  
+  onSort({column, direction}: SortEvent) {
+    // resetting other headers
+    this.headers.forEach(header => {
+      if (header.sortable !== column) {
+        header.direction = '';
+      }
+    });
 
-
+    this.service.sortColumn = column;
+    this.service.sortDirection = direction;
+  }
 }
