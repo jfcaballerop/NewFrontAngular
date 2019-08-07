@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthGuardService } from '../core/auth-guard/auth-guard.service';
 import { AdminLayoutComponent } from '../layout/admin-layout/admin-layout.component';
 import { SecurityPermissionComponent } from './security-permission/security-permission.component';
 import { SecurityComponent } from './security/security.component';
@@ -11,7 +12,8 @@ const adminRoutes: Routes = [
         children: [
             { path: '', pathMatch: 'full', component: SecurityComponent },
             { path: 'permissions', pathMatch: 'full', component: SecurityPermissionComponent }
-        ]
+        ],
+        canActivate: [AuthGuardService]
     }
 ];
 
