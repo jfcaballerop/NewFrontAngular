@@ -52,7 +52,12 @@
         <td>
           <ngb-highlight [result]="perm.name" [term]="service.searchTerm"></ngb-highlight>
         </td>
-        <td><ngb-highlight [result]="perm.active | number" [term]="service.searchTerm"></ngb-highlight></td>
+        <td>
+          <!-- <ngb-highlight [result]="perm.active | number" [term]="service.searchTerm"></ngb-highlight> -->
+          <i class="fas fa-check icon-green" *ngIf="perm.active === 1"></i>
+          <i class="fas fa-times icon-red" *ngIf="perm.active === 0"></i>
+
+        </td>
       </tr>
       </tbody>
     </table>
