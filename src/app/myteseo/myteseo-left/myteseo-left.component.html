@@ -25,9 +25,15 @@
 <div class="profile-usermenu">
     <ul class="nav flex-column ">
         <li class="nav-item">
-            <a (click)="toggleView('home')">
+            <a routerLink="/myteseo" (click)="toggleView('home')">
                 <i class="fas fa-home"></i>
                 Home </a>
+        </li>
+        <li>
+            <a routerLink="/admin">
+                <i class="fas fa-tools">
+                </i>
+                Admin Zone </a>
         </li>
         <li>
             <a href="#">
