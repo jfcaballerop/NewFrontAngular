@@ -1,0 +1,258 @@
+{
+"roles": [
+	{
+		"ID" : "GF",
+		"NAME" : "Gestor de flota",
+		"TESEO_ID" : 1
+	},
+	{
+		"ID" : "GC",
+		"NAME" : "Gestor de cuenta",
+		"TESEO_ID" : 2
+	},
+	{
+		"ID" : "PLT",
+		"NAME" : "Plataforma",
+		"TESEO_ID" : 3
+	},
+	{
+		"ID" : "ADV",
+		"NAME" : "Area de vehiculos",
+		"TESEO_ID" : 4
+	},
+	{
+		"ID" : "PTF",
+		"NAME" : "Operador Seguridad Portugal",
+		"TESEO_ID" : 5
+	},
+	{
+		"ID" : "SCA",
+		"NAME" : "OPERADOR ESCANER",
+		"TESEO_ID" : 6
+	},
+	{
+		"ID" : "ATI",
+		"NAME" : "ADMIN. TRAFICO INTERNAC.",
+		"TESEO_ID" : 7
+	},
+	{
+		"ID" : "GOD",
+		"NAME" : "SUPER-USUARIO",
+		"TESEO_ID" : 8
+	},
+	{
+		"ID" : "AV",
+		"NAME" : "ADMINISTRADOR VISUALIZACION",
+		"TESEO_ID" : 9
+	},
+	{
+		"ID" : "AP",
+		"NAME" : "ADMINISTRADOR PROVEEDORES",
+		"TESEO_ID" : 10
+	},
+	{
+		"ID" : "AF",
+		"NAME" : "Administrador Facturacion Central",
+		"TESEO_ID" : 11
+	},
+	{
+		"ID" : "AT",
+		"NAME" : "ADMINISTRADOR TRAFICO",
+		"TESEO_ID" : 12
+	},
+	{
+		"ID" : "AN",
+		"NAME" : "ADMINISTRADOR NEGOCIO",
+		"TESEO_ID" : 13
+	},
+	{
+		"ID" : "CS",
+		"NAME" : "CENTRO SEGURIDAD",
+		"TESEO_ID" : 14
+	},
+	{
+		"ID" : "CV",
+		"NAME" : "CENTRO VISUALIZACION",
+		"TESEO_ID" : 15
+	},
+	{
+		"ID" : "CF",
+		"NAME" : "CENTRO FACTURACION",
+		"TESEO_ID" : 16
+	},
+	{
+		"ID" : "CE",
+		"NAME" : "CENTRO EXPEDICIONES",
+		"TESEO_ID" : 17
+	},
+	{
+		"ID" : "CT",
+		"NAME" : "CENTRO TRAFICO",
+		"TESEO_ID" : 18
+	},
+	{
+		"ID" : "T",
+		"NAME" : "TRANSPORTISTA",
+		"TESEO_ID" : 19
+	},
+	{
+		"ID" : "S",
+		"NAME" : "SIN PERMISOS",
+		"TESEO_ID" : 20
+	},
+	{
+		"ID" : "PMD",
+		"NAME" : "PHILLIP MORRIS STORE",
+		"TESEO_ID" : 21
+	},
+	{
+		"ID" : "PMC",
+		"NAME" : "PHILLIP MORRIS CENTRAL",
+		"TESEO_ID" : 22
+	},
+	{
+		"ID" : "SEC",
+		"NAME" : "Operador Seguridad",
+		"TESEO_ID" : 23
+	},
+	{
+		"ID" : "FYV",
+		"NAME" : "Gestor flota fruta",
+		"TESEO_ID" : 24
+	},
+	{
+		"ID" : "TCF",
+		"NAME" : "Transportista Confirmar Fechas",
+		"TESEO_ID" : 25
+	},
+	{
+		"ID" : "DFF",
+		"NAME" : "Desarrollo de flota formador",
+		"TESEO_ID" : 26
+	},
+	{
+		"ID" : "VXD",
+		"NAME" : "Viajes por defecto",
+		"TESEO_ID" : 27
+	},
+	{
+		"ID" : "ICS",
+		"NAME" : "I2 Canarias Seg. Embarcada",
+		"TESEO_ID" : 28
+	},
+	{
+		"ID" : "SEP",
+		"NAME" : "Operador Seguridad Plus",
+		"TESEO_ID" : 29
+	},
+	{
+		"ID" : "TLL",
+		"NAME" : "Taller",
+		"TESEO_ID" : 30
+	},
+	{
+		"ID" : "DFL",
+		"NAME" : "Desarrollo de flota desarrollador",
+		"TESEO_ID" : 31
+	},
+	{
+		"ID" : "AGE",
+		"NAME" : "Agencia",
+		"TESEO_ID" : 32
+	},
+	{
+		"ID" : "PVC",
+		"NAME" : "Parking Virtual G. Cuenta",
+		"TESEO_ID" : 33
+	},
+	{
+		"ID" : "IES",
+		"NAME" : "I2 Peninsula Seg. Embarcada",
+		"TESEO_ID" : 34
+	},
+	{
+		"ID" : "IPS",
+		"NAME" : "I2 Portugal Seg. Embarcada",
+		"TESEO_ID" : 35
+	},
+	{
+		"ID" : "SET",
+		"NAME" : "Supervisor CRA PT",
+		"TESEO_ID" : 36
+	},
+	{
+		"ID" : "PLN",
+		"NAME" : "Planificador",
+		"TESEO_ID" : 37
+	},
+	{
+		"ID" : "COA",
+		"NAME" : "Conceptos de anulacion",
+		"TESEO_ID" : 38
+	},
+	{
+		"ID" : "CUS",
+		"NAME" : "Customer Services",
+		"TESEO_ID" : 39
+	},
+	{
+		"ID" : "GCF",
+		"NAME" : "Gestor de cuenta Facturacion",
+		"TESEO_ID" : 40
+	},
+	{
+		"ID" : "CYN",
+		"NAME" : "Centros y Nodos",
+		"TESEO_ID" : 41
+	},
+	{
+		"ID" : "SIS",
+		"NAME" : "Sistemas",
+		"TESEO_ID" : 42
+	},
+	{
+		"ID" : "SES",
+		"NAME" : "Supervisor CRA",
+		"TESEO_ID" : 43
+	},
+	{
+		"ID" : "DOC",
+		"NAME" : "Documentacion y cobros",
+		"TESEO_ID" : 44
+	},
+	{
+		"ID" : "PES",
+		"NAME" : "Proveedor esporadico",
+		"TESEO_ID" : 45
+	},
+	{
+		"ID" : "ADC",
+		"NAME" : "Administrador Contabilidad",
+		"TESEO_ID" : 46
+	},
+	{
+		"ID" : "OAP",
+		"NAME" : "Oferta app",
+		"TESEO_ID" : 47
+	},
+	{
+		"ID" : "INS",
+		"NAME" : "Gestor de seguros",
+		"TESEO_ID" : 48
+	},
+	{
+		"ID" : "TAF",
+		"NAME" : "Tender analista filial",
+		"TESEO_ID" : 49
+	},
+	{
+		"ID" : "STI",
+		"NAME" : "Soporte Técnico I2",
+		"TESEO_ID" : 51
+	},
+	{
+		"ID" : "TAD",
+		"NAME" : "Tender analista administrador",
+		"TESEO_ID" : 50
+	}
+]}
