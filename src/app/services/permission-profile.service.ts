@@ -22,6 +22,15 @@ export class PermissionProfileService {
       );
   }
 
+  // public findById(): Observable<PermissionProfile> {
+  //   return this.http
+  //     .get<PermissionProfile>(environment.apiTwPermissionProfileUrl)
+  //     .pipe(
+  //       tap(d => console.log('PermissionProfileService ', d)),
+  //       catchError(this.handleError<PermissionProfile>('findAllRoles', []))
+  //     );
+  // }
+
   private handleError<T>(operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
 
