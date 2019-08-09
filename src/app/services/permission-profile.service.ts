@@ -22,14 +22,16 @@ export class PermissionProfileService {
       );
   }
 
-  // public findById(): Observable<PermissionProfile> {
-  //   return this.http
-  //     .get<PermissionProfile>(environment.apiTwPermissionProfileUrl)
-  //     .pipe(
-  //       tap(d => console.log('PermissionProfileService ', d)),
-  //       catchError(this.handleError<PermissionProfile>('findAllRoles', []))
-  //     );
-  // }
+  public findById(id: string): Observable<PermissionProfile> {
+    let url: string = environment.apiMyJsonServerBase + '/roles/' + id;
+
+    return this.http
+      .get<PermissionProfile>(url)
+      .pipe(
+        tap(d => console.log('PermissionProfileService ', d)),
+        catchError(this.handleError<PermissionProfile>('findAllRoles', undefined))
+      );
+  }
 
   private handleError<T>(operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {

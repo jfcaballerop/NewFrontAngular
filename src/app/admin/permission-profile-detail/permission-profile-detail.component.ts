@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 import { Observable } from 'rxjs';
 import { PermissionProfile } from 'src/app/models/permission-profile';
 import { PermissionProfileService } from 'src/app/services/permission-profile.service';
+import { switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-permission-profile-detail',
@@ -11,6 +12,7 @@ import { PermissionProfileService } from 'src/app/services/permission-profile.se
 })
 export class PermissionProfileDetailComponent implements OnInit {
   profile$: Observable<PermissionProfile>;
+  role: PermissionProfile;
 
   constructor(
     private route: ActivatedRoute,
@@ -19,11 +21,12 @@ export class PermissionProfileDetailComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    // this.profile$ = this.route.paramMap.pipe(
-    //   switchMap((params: ParamMap) =>
-    //     this.permProfileSVC.findAll
-    //   )
-    // );
+    this.profile$ = this.route.paramMap.pipe(
+      switchMap((params: ParamMap) =>
+        this.permProfileSVC.findById(params.get('id'))
+      )
+    );
+    this.profile$.subscribe(r => this.role = r);
   }
 
 }
