@@ -38,7 +38,7 @@
         <span class="ml-3" *ngIf="service.loading$ | async">Loading...</span>
     </div>
   
-    <table class="table">
+    <table class="table table-sm">
       <thead>
       <tr>
         <th scope="col">#</th>
@@ -47,7 +47,7 @@
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let perm of permisos$ | async" [ngClass]="perm.active === 0 ? 'table-danger' : 'table-default'">
+      <tr *ngFor="let perm of permisos$ | async" [ngClass]="perm.active === 0 ? 'table-danger' : 'table-default'" class="small">
         <th scope="row">{{ perm.id }}</th>
         <td>
           <ngb-highlight [result]="perm.name" [term]="service.searchTerm"></ngb-highlight>
