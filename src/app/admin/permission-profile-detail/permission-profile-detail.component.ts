@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { PermissionProfile } from 'src/app/models/permission-profile';
 import { PermissionProfileService } from 'src/app/services/permission-profile.service';
 import { switchMap } from 'rxjs/operators';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-permission-profile-detail',
@@ -17,7 +18,8 @@ export class PermissionProfileDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private permProfileSVC: PermissionProfileService
+    private permProfileSVC: PermissionProfileService,
+    private _location: Location
   ) { }
 
   ngOnInit() {
@@ -27,6 +29,11 @@ export class PermissionProfileDetailComponent implements OnInit {
       )
     );
     this.profile$.subscribe(r => this.role = r);
+  }
+
+  goBack() {
+    this._location.back();
+
   }
 
 }
