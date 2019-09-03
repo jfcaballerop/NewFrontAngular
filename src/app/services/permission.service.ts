@@ -2,8 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { environment } from 'src/environments/environment';
+import { catchError, tap } from 'rxjs/operators';
 import { Permission } from '../models/permission';
-import { catchError } from 'rxjs/operators';
 
 
 @Injectable({
@@ -18,6 +18,17 @@ export class PermissionService {
     .get<Permission[]>(environment.apiTwpermissionUrl)
       .pipe(
         catchError(this.handleError<Permission[]>('getAllPermissions', []))
+      );
+  }
+
+  public findById(id: string): Observable<Permission> {
+    let url: string = environment.apiTwpermissionUrlMock + '/' + id;
+
+    return this.http
+      .get<Permission>(url)
+      .pipe(
+        tap(d => console.log('PermissionService ', d)),
+        catchError(this.handleError<Permission>('findById', undefined))
       );
   }
 

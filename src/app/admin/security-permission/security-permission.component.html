@@ -48,9 +48,10 @@
       </thead>
       <tbody>
       <tr *ngFor="let perm of permisos$ | async" [ngClass]="perm.active === 0 ? 'table-danger' : 'table-default'" class="small">
-        <th scope="row">{{ perm.id }}</th>
+        <th scope="row"><a routerLink="{{perm.id}}">{{ perm.id }}</a></th>
         <td>
           <ngb-highlight [result]="perm.name" [term]="service.searchTerm"></ngb-highlight>
+          <ngb-highlight [term]="service.searchTerm"></ngb-highlight>
         </td>
         <td>
           <!-- <ngb-highlight [result]="perm.active | number" [term]="service.searchTerm"></ngb-highlight> -->

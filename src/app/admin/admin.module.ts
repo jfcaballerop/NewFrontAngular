@@ -10,11 +10,18 @@ import { SecurityPermissionComponent } from './security-permission/security-perm
 import { SecurityComponent } from './security/security.component';
 import { PermissionSortService } from './services/permission-sort.service';
 import { PermissionProfileDetailComponent } from './permission-profile-detail/permission-profile-detail.component';
+import { SecurityPermissionDetailComponent } from './security-permission-detail/security-permission-detail.component';
 
 
 
 @NgModule({
-  declarations: [SecurityComponent, SecurityPermissionComponent, PermissionProfileComponent, PermissionProfileDetailComponent],
+  declarations: [
+    SecurityComponent,
+    SecurityPermissionComponent,
+    PermissionProfileComponent,
+    PermissionProfileDetailComponent,
+    SecurityPermissionDetailComponent
+  ],
   imports: [
     CommonModule,
     AdminRoutingModule,

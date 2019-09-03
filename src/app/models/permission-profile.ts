@@ -1,5 +1,5 @@
 export interface PermissionProfile {
-    ID: string ;
+    ID: string;
     NAME: string;
     TESEO_ID: number;
 }

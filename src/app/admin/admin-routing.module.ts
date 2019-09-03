@@ -6,6 +6,7 @@ import { PermissionProfileDetailComponent } from './permission-profile-detail/pe
 import { PermissionProfileComponent } from './permission-profile/permission-profile.component';
 import { SecurityPermissionComponent } from './security-permission/security-permission.component';
 import { SecurityComponent } from './security/security.component';
+import { SecurityPermissionDetailComponent } from './security-permission-detail/security-permission-detail.component';
 
 const adminRoutes: Routes = [
     {
@@ -21,6 +22,9 @@ const adminRoutes: Routes = [
             },
             {
                 path: 'profiles/:id', component: PermissionProfileDetailComponent
+            },
+            {
+                path: 'permissions/:id', component: SecurityPermissionDetailComponent
             }
         ],
         canActivate: [AuthGuardService]

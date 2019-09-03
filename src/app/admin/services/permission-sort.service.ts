@@ -2,7 +2,7 @@ import { DecimalPipe } from '@angular/common';
 import { Injectable, PipeTransform } from '@angular/core';
 import { BehaviorSubject, Observable, of, Subject } from 'rxjs';
 import { debounceTime, delay, switchMap, tap } from 'rxjs/operators';
-import { Permission } from 'src/app/models/permission';
+import { Permission } from 'src/app/models/Permission';
 import { PermissionService } from 'src/app/services/permission.service';
 import { SortDirection } from 'src/app/shared/directives/sortable.directive';
 // import { COUNTRIES } from './permisos';

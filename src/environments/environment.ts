@@ -6,6 +6,7 @@ export const environment = {
   production: false,
   apiAuthUrl: 'http://www.mocky.io/v2/5d441bfb2f0000fc0c1794a5?mocky-delay=2s',
   apiTwpermissionUrl: 'http://www.mocky.io/v2/5d4895e7330000f343a3efac?mocky-delay=1s',
+  apiTwpermissionUrlMock: 'http://my-json-server.typicode.com/irodriguezr/mocks/permisos',
   apiTwPermissionProfileUrl: 'http://www.mocky.io/v2/5d4c3457310000ba15a952c0?mocky-delay=500ms',
   apiMyJsonServerBase: 'http://my-json-server.typicode.com/jfcaballerop/my-json-server'
 };
