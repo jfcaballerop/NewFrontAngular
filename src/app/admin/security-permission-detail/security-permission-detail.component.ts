@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { Permission } from 'src/app/models/Permission';
-import { Observable } from 'rxjs';
-import { ActivatedRoute, ParamMap, Router } from '@angular/router';
-import { switchMap } from 'rxjs/operators';
-import { PermissionService } from 'src/app/services/permission.service';
 import { Location } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+import { Observable } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
+import { Permission } from 'src/app/models/permission';
+import { PermissionService } from 'src/app/services/permission.service';
 
 @Component({
   selector: 'app-security-permission-detail',
