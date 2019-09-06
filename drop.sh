@@ -5,12 +5,12 @@ TAG="myteseo:prod"
 DOCKERID=`docker ps -f ancestor=${TAG} | grep -w ${TAG} | cut -d' ' -f1`
 if [ -z "$DOCKERID" ]
 then
-    echo "\$TAG is empty"
+    echo -e "\n ## \$TAG is empty"
 else
-    echo "\$DOCKERID is NOT empty"
-    echo $TAG "Stopping ..." 
+    echo -e "\n ## \$DOCKERID is NOT empty"
+    echo -e "\n ##" $TAG "Stopping ..." 
     docker stop $DOCKERID
 fi
 
-echo $TAG "Remove ..." 
+echo -e "\n ##" $TAG "Remove ..." 
 docker rmi $TAG --force
