@@ -5,9 +5,9 @@ TAG="myteseo:prod"
 ./drop.sh
 
 # Poner en el directorio
-# cd /opt/teseo-front
+cd /opt/teseo-front
 # Hacer un pull
-# git pull
+git pull
 
 # Construir el docker
 echo $TAG "Building ..." 
