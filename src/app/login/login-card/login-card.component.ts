@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { first } from 'rxjs/operators';
+import { UtilsService } from 'src/app/core/utils/utils.service';
 import { AuthenticationService } from 'src/app/services/authentication.service';
 
 @Component({
@@ -14,13 +15,14 @@ export class LoginCardComponent implements OnInit {
   loading = false;
   submitted = false;
   returnUrl: string;
-
+  error: string;
 
   constructor(
     private formBuilder: FormBuilder,
     private route: ActivatedRoute,
     private router: Router,
-    private authenticationService: AuthenticationService
+    private authenticationService: AuthenticationService,
+    private utils: UtilsService
   ) {
     // redirect to home if already logged in
     if (this.authenticationService.currentUserValue) {
@@ -51,15 +53,17 @@ export class LoginCardComponent implements OnInit {
     this.loading = true;
 
     this.authenticationService.login(this.f.username.value, this.f.password.value)
-            .pipe(first())
-            .subscribe(
-                data => {
-                    // this.router.navigate([this.returnUrl]);
-                    this.router.navigate([`/myteseo`]);
-                },
-                error => {
-                    this.loading = false;
-                });
+      .pipe(first())
+      .subscribe(
+        data => {
+          // this.router.navigate([this.returnUrl]);
+          this.router.navigate([`/myteseo`]);
+        },
+        error => {
+          this.error = this.utils.getHttpError(error.status, 'login');
+          this.loading = false;
+          throw error;
+        });
 
   }
 }
