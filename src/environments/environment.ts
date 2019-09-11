@@ -5,9 +5,9 @@
 
 export const environment = {
   production: false,
-  HOST_AUTH: 'vigiplus.logesta.com',
+  HOST_AUTH: 'myteseo.dev.logesta.com',
   PORT_AUTH: '7777',
-  apiAuthUrl: 'http://vigiplus.logesta.com:7777/signin',
+  apiAuthUrl: 'http://myteseo.dev.logesta.com:7777/signin',
   apiTwpermissionUrl: 'http://www.mocky.io/v2/5d4895e7330000f343a3efac?mocky-delay=1s',
   apiTwpermissionUrlMock: 'http://my-json-server.typicode.com/irodriguezr/mocks/permisos',
   apiTwPermissionProfileUrl: 'http://www.mocky.io/v2/5d4c3457310000ba15a952c0?mocky-delay=500ms',
